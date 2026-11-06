@@ -1,0 +1,122 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Duke–Schulze-Pillot: the upper bound of Lemma 5(ii) and a conditional Theorem 3(ii)"
+  description: >-
+    A Lean 4 / Mathlib formalization around W. Duke and R. Schulze-Pillot, Representation of
+    integers by positive ternary quadratic forms and equidistribution of lattice points on
+    ellipsoids (Invent. Math. 99, 1990). q(x) = ½ xᵗAx for a symmetric integer 3 × 3 matrix A with
+    q > 0 on ℚ³ \ {0}, h ∈ ℚ³, r(q, h, n) = #{x ∈ h + ℤ³ : q(x) = n} and, for F ⊆ ℝ³,
+    r(q, F, h, n) = #{x ∈ h + ℤ³ : q(x) = n, x/√n ∈ F}. Unconditional results: card_divisors_le_rpow
+    (d(n) ≤ C_ε n^ε); repCount_le (r(q, h, n) ≤ C_ε n^{1/2+ε} for n ≥ 1); average_le (the same bound
+    for every nonnegatively weighted average of such counts, which includes r(spn_N q, h, n): this
+    is the upper half of Lemma 5(ii)). Conditional results: thm3_ii (Theorem 3(ii),
+    r(q, F, h, n) = R(n) μ(F) + O(n^{1/2 − 1/175 + ε}) for n ≥ 1 in a set S) and spn_upper
+    (R(n) ≤ C_ε n^{1/2+ε}) are proved under two hypotheses that are NOT proved here: hThm1, the
+    estimate of Theorem 1 of the paper (|r(q, F, h, n) − r(q, h, n) μ(F)| ≤ C (n^{−1/175} r(q, h, n)
+    + n^{1/2−1/175+ε}) on S), and hThm3i, the estimate of Theorem 3(i)
+    (|r(q, h, n) − R(n)| ≤ C n^{1/2−1/28+ε} on S); R stands for r(spn_N q, h, n), μF ∈ [0, 1] for
+    μ(F), and S for the restricted set of n. The lower bound n^{1/2−ε} ≪ r(spn_N q, h, n) of
+    Lemma 5(ii) (Siegel's ineffective bound) is not formalized.
+  authors:
+    - "Juan Pablo Traverso Gianini"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Juan Pablo Traverso Gianini"
+
+classification:
+  arxiv: ["math.NT"]
+  msc2020: ["11E20", "11E12", "11P21", "11N56"]
+
+repository:
+  role: "substantive-development"
+
+sources:
+  - title: "Representation of integers by positive ternary quadratic forms and equidistribution of lattice points on ellipsoids"
+    authors:
+      - "W. Duke"
+      - "R. Schulze-Pillot"
+    id: "doi:10.1007/BF01234411"
+    type: "paper"
+    location: "Inventiones Mathematicae 99 (1990), 49–57; Lemma 5(ii) and Theorem 3(ii)."
+    relationship: "formalizes"
+    note: >-
+      Formalized: the upper bound r(spn_N q, h, n) ≪ n^{1/2+ε} of Lemma 5(ii) (for every weighted
+      average of representation numbers, by an elementary argument, not the paper's), and
+      Theorem 3(ii) conditional on Theorem 1 and Theorem 3(i) of the paper, which are hypotheses.
+      Theorem 1 rests on Iwaniec's bound for Fourier coefficients of half-integral weight cusp forms,
+      the Shimura correspondence, Deligne's bound and harmonic polynomials (Golubeva–Fomenko);
+      Theorem 3(i) and the lower bound of Lemma 5(ii) on the Siegel and spinor mass formulas and
+      Siegel's theorem on L(1, χ). None of these is formalized. The proof of Theorem 3(ii) from
+      them follows the paper. The formalization is by a different author; the authors of the
+      article were not involved.
+    license: "unknown"
+    author_endorsement: "not-contacted"
+
+status:
+  scope: >-
+    Unconditional: the divisor bound, r(q, h, n) ≪ n^{1/2+ε} for positive definite integral
+    ternary forms on a shifted lattice h + ℤ³, and its weighted averages (upper half of Lemma
+    5(ii)). Conditional on the paper's Theorem 1 and Theorem 3(i) (explicit hypotheses):
+    Theorem 3(ii) and the upper bound for the main term. Not formalized: Theorem 1, Theorems 2
+    and 3(i), Lemmas 1–4, the lower bound of Lemma 5(ii), the Corollary, spinor genera.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: "agent"
+      models: ["Claude Opus 5.5"]
+      framework: "Claude Code (Anthropic)"
+      tool_setup: >-
+        Wrote the Lean development (directory DSPLib/), the Challenge/Solution pair and the
+        packaging under the author's direction, checked with lake build, #print axioms and a
+        comparison of the elaborated Challenge and Solution statements and definitions (pp.all)
+        (Lean v4.35.0-rc3, Mathlib c55e6e786f49471c72fbddbec5415808896aec1e).
+      cost:
+        wall_time: "a few hours"
+        spend_usd: "subscription-based"
+        hardware: "local machine"
+      prompting_notes: "Natural-language instructions in Spanish, directed by the author."
+  spend_usd: "subscription-based"
+  notes: >-
+    The results and the conditional formulation were chosen by the human author; the Lean
+    development is AI-written under the author's direction and mechanically verified: no sorry,
+    axioms limited to propext, Classical.choice and Quot.sound, identical elaborated statements
+    and definitions in the Challenge and the Solution.
+
+fidelity:
+  divergences: >-
+    The paper takes A with even diagonal (so that q is integral) and h with Ah ∈ ℤ³; the upper
+    bounds here hold for every symmetric integer A with q > 0 on ℚ³ \ {0} and every h ∈ ℚ³. The
+    spinor genus r(spn_N q, h, n) is not defined: average_le covers it as a weighted average of
+    representation numbers r(q', h', n) with weights 1/o(q', N), and in thm3_ii and spn_upper it
+    is an arbitrary function R constrained only by the hypothesis hThm3i. μ(F) is a real number
+    in [0, 1] constrained only by hThm1; the region F is an arbitrary set. The restriction on n
+    (n = t m², t squarefree, gcd(m, N₂^∞) in a fixed finite set) is an arbitrary set S on which
+    the hypotheses hold. The O-constants are stated as existence of C for each ε > 0.
+
+review:
+  status: "agent-reviewed"
+  reviewers:
+    - "Claude Opus 5.5 (AI agent in Claude Code, acting for the author)"
+  notes: >-
+    Agent review by Claude Opus 5.5, distinct from the mechanical verification: the agent read
+    the paper (Lemma 5, Theorem 1, Theorem 3 and their proofs), checked that the hypotheses
+    hThm1 and hThm3i are exactly the estimates of Theorem 1 and Theorem 3(i), and that the
+    deduction of Theorem 3(ii) is the paper's. No independent human review of the formalization
+    has been performed. No mathematical novelty is claimed.
+
+alignment:
+  namespace: "DukeSchulzePillot"
+  statements:
+    - {source: "Divisor bound (used for Lemma 5(ii))", lean: "DukeSchulzePillot.card_divisors_le_rpow", module: "DSPChallenge", status: "proved"}
+    - {source: "Duke–Schulze-Pillot (1990), Lemma 5(ii), upper bound, one form", lean: "DukeSchulzePillot.repCount_le", module: "DSPChallenge", status: "proved"}
+    - {source: "Duke–Schulze-Pillot (1990), Lemma 5(ii), upper bound for r(spn_N q, h, n)", lean: "DukeSchulzePillot.average_le", module: "DSPChallenge", status: "proved"}
+    - {source: "Duke–Schulze-Pillot (1990), Theorem 3(ii), conditional on Theorems 1 and 3(i)", lean: "DukeSchulzePillot.thm3_ii", module: "DSPChallenge", status: "proved"}
+    - {source: "Duke–Schulze-Pillot (1990), upper bound for the main term, conditional on Theorem 3(i)", lean: "DukeSchulzePillot.spn_upper", module: "DSPChallenge", status: "proved"}
+
+acknowledgements: >-
+  Mathlib and the Lean community.

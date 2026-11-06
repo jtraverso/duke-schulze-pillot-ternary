@@ -1,0 +1,22 @@
+{
+  "challenge_module": "DSPChallenge",
+  "solution_module": "DSPSolution",
+  "theorem_names": [
+    "DukeSchulzePillot.card_divisors_le_rpow",
+    "DukeSchulzePillot.repCount_le",
+    "DukeSchulzePillot.average_le",
+    "DukeSchulzePillot.thm3_ii",
+    "DukeSchulzePillot.spn_upper"
+  ],
+  "definition_names": [
+    "DukeSchulzePillot.qform",
+    "DukeSchulzePillot.repCount",
+    "DukeSchulzePillot.repCountF"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

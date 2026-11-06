@@ -1,0 +1,25 @@
+name = "dsp_ternary"
+version = "0.1.0"
+defaultTargets = ["DSPLib", "DSPChallenge", "DSPSolution"]
+requiresModuleSystem = true
+
+[leanOptions]
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "DSPLib"
+globs = ["DSPLib.+"]
+
+[[lean_lib]]
+name = "DSPChallenge"
+roots = ["DSPChallenge"]
+
+[[lean_lib]]
+name = "DSPSolution"
+roots = ["DSPSolution"]
