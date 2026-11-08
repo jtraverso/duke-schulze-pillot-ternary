@@ -1,0 +1,775 @@
+{
+  "source_commit": "c2049f5db7e4f34e7fad6445e8db16fc9007c1cd",
+  "upstream_audit_sha256": "959a3701495b1604fb4cc3f59650d1a4052856e034e56fdf37b4a7c70a898dc2",
+  "source_modules": {
+    "LeanLab.PNTPort.DirichletZF.Estermann": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Estermann.lean",
+      "sha256": "7fff8efa0261a022a619ebd4e0cde30c65636befa6c6ed1f5f3b6a63499d0ee6"
+    },
+    "LeanLab.PNTPort.DirichletZF.Exceptional": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Exceptional.lean",
+      "sha256": "fc1edc8984a4766c7c91e280040d082937ff91752eb9e853e5c90761096f1b49"
+    },
+    "LeanLab.PNTPort.DirichletZF.Growth": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Growth.lean",
+      "sha256": "25fd5ccb8ab9e65f9b24eb0f9fb356a43aaf9eaabb6eb891bb01e0ed95ec4613"
+    },
+    "LeanLab.PNTPort.DirichletZF.LogDeriv": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/LogDeriv.lean",
+      "sha256": "e18869bb004edd2180f5f9b0d21482b3e1883f71154536d47e9e690dbe845cef"
+    },
+    "LeanLab.PNTPort.DirichletZF.NearOne": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/NearOne.lean",
+      "sha256": "0aa9956237b5c683356e7ba170a5a2fc55ef4c46916d0637a93d41f714989ad7"
+    },
+    "LeanLab.PNTPort.DirichletZF.Page": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Page.lean",
+      "sha256": "599797914120f587b69106d4ca141f10a410e16acdc7172958ce1d59730e1cf3"
+    },
+    "LeanLab.PNTPort.DirichletZF.RealZero": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/RealZero.lean",
+      "sha256": "20e6b7042e6edf8ccb9296c7e563e8c78bcd1ab0cf8f51aa2defb8186d0ce3fe"
+    },
+    "LeanLab.PNTPort.DirichletZF.Siegel": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Siegel.lean",
+      "sha256": "459e8783505c84b40c2e3dfe81bee93edcf21c40ce42f2f0c4068216d8684b43"
+    },
+    "LeanLab.PNTPort.DirichletZF.SiegelBounds": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelBounds.lean",
+      "sha256": "738654afd92a5879a18f8293441bb928597806b26e6f23b6379fd70aa480bc24"
+    },
+    "LeanLab.PNTPort.DirichletZF.SiegelG": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelG.lean",
+      "sha256": "e83bf55f628ad33d1a830aa40bb2d4a25191e7a37098c99866949de6ad77d749"
+    },
+    "LeanLab.PNTPort.DirichletZF.SiegelLift": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelLift.lean",
+      "sha256": "0ac976c08e60f4edb148c87ac826a7e5ac845315c499569926004edd0bf2d26a"
+    },
+    "LeanLab.PNTPort.DirichletZF.SiegelPair": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelPair.lean",
+      "sha256": "e72edfd9a57efe276f84b4a22de705e191b8426a0e86126254defdbc06d0a71e"
+    },
+    "LeanLab.PNTPort.DirichletZF.SiegelSign": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelSign.lean",
+      "sha256": "267c0ca29db16d3ac87e1ae4901c570fc5539ab8765974684ef39e84110763e6"
+    },
+    "LeanLab.PNTPort.DirichletZF.SiegelSigns": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelSigns.lean",
+      "sha256": "ae4888d3fd674db74116a81eb54ef29904743d45673de57d65af4f032e56c122"
+    },
+    "LeanLab.PNTPort.DirichletZF.SiegelTaylor": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelTaylor.lean",
+      "sha256": "21ad2a9b460cf0673a1ea90a5fe3793f4b95017a7feccfd164e2bc69c083e445"
+    },
+    "LeanLab.PNTPort.DirichletZF.ThreeFourOne": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ThreeFourOne.lean",
+      "sha256": "7a3538927a2d53b7d6662a1881551392fdfe91afef8a244fa0df422c7f9c17cb"
+    },
+    "LeanLab.PNTPort.DirichletZF.ZeroFree": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ZeroFree.lean",
+      "sha256": "31b2a5a1602506f5cd0940ed9c4dffe37abec8561d85a26bfa0d4c19c3d6b621"
+    },
+    "LeanLab.PNTPort.DirichletZF.ZeroFreeAll": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ZeroFreeAll.lean",
+      "sha256": "56efbc2d916796a22d7bf8389960f8a3fd88164e073dc9678a370c227ab75e11"
+    },
+    "LeanLab.PNTPort.DirichletZF.ZeroFreeReal": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ZeroFreeReal.lean",
+      "sha256": "4160ea3006b3a6b2f79f134cea9259e91cb8d7e41182f32f509f497ad3898503"
+    },
+    "LeanLab.PNTPort.StrongPNT.Auxiliary": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Auxiliary.lean",
+      "sha256": "e370a086e90756ce8c8f6dfcc410d0d8fc4781fde7ca0566d2b25dbff278bf8d"
+    },
+    "LeanLab.PNTPort.StrongPNT.EulerMaclaurin": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/EulerMaclaurin.lean",
+      "sha256": "1d3f57b60017276c81487b65944f293c5d3e78b1f801748910bedaa2903b1196"
+    },
+    "LeanLab.PNTPort.StrongPNT.Fourier": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Fourier.lean",
+      "sha256": "db702ffd076e8923294d4ba7cd09f8a753143e073f3c56d7bfaa5d5705cac8c2"
+    },
+    "LeanLab.PNTPort.StrongPNT.Mathlib.Algebra.Notation.Support": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Mathlib/Algebra/Notation/Support.lean",
+      "sha256": "5a0a47c911cfd52a6064b08672e906504342a7a5c8cf7c458787734fde0e2b32"
+    },
+    "LeanLab.PNTPort.StrongPNT.Mathlib.Analysis.SpecialFunctions.Log.Basic": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+      "sha256": "676690d0dc52a8b705cb5751345a2f18f35ca7590cecff6596888c9d72060865"
+    },
+    "LeanLab.PNTPort.StrongPNT.MediumPNT": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/MediumPNT.lean",
+      "sha256": "14f667e9885434539747a4856bdba29e8d793301341bc023cb85fa4cf807c308"
+    },
+    "LeanLab.PNTPort.StrongPNT.MellinCalculus": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/MellinCalculus.lean",
+      "sha256": "46d09b3c4af295f6cd0e78357e6ba19f07ac259909587f8dba48bd12ee2a221f"
+    },
+    "LeanLab.PNTPort.StrongPNT.Rectangle": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Rectangle.lean",
+      "sha256": "2f7dbd50aea0855b252a053928680c29da75796651c5cf6e871a13268cedeec3"
+    },
+    "LeanLab.PNTPort.StrongPNT.ResidueCalcOnRectangles": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/ResidueCalcOnRectangles.lean",
+      "sha256": "2d32c28791f5198232712fb7ed6714c56016701a395a430357eb96c709ae419a"
+    },
+    "LeanLab.PNTPort.StrongPNT.SmoothExistence": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/SmoothExistence.lean",
+      "sha256": "4923919db60a4e3414092e40f99d47d0340bf165766882dd58518d4e6d9563bb"
+    },
+    "LeanLab.PNTPort.StrongPNT.Sobolev": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Sobolev.lean",
+      "sha256": "5d57ffd1fbd1c6f9cd6d73bdbe49db8f15266b7a8139fc08ecec78a1045018cb"
+    },
+    "LeanLab.PNTPort.StrongPNT.StrongPNT": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/StrongPNT.lean",
+      "sha256": "1d9101555fcd84566151de400da8def843ad1e220da8c48459228fb12ecd8f17"
+    },
+    "LeanLab.PNTPort.StrongPNT.Tactic.AdditiveCombination": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Tactic/AdditiveCombination.lean",
+      "sha256": "1d9e59c34c36dfc3eff21b7137637d7b7291791d92764ec5df4d7765a67aafe0"
+    },
+    "LeanLab.PNTPort.StrongPNT.Tactic.LinearCombinationPrime": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Tactic/LinearCombinationPrime.lean",
+      "sha256": "bb619eaacabed815fcc9da0adefa692893ebfc6ccbf1ae5456417ef1dcc4b561"
+    },
+    "LeanLab.PNTPort.StrongPNT.ZetaBounds": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/ZetaBounds.lean",
+      "sha256": "04d21c738c10e5c992250cc8608c9d40f738a4d27bc0fb6efb1111854231da93"
+    },
+    "LeanLab.PNTPort.StrongPNT.ZetaConj": {
+      "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/ZetaConj.lean",
+      "sha256": "43cd8e71164fdd7f4f088825f7a8be84018de2ccec9f5e63cda4a015d6020fb0"
+    },
+    "ThreeSquaresLib.Arith": {
+      "path": "ThreeSquaresLib/Arith.lean",
+      "sha256": "34720b389f20b39c3b855cb8e67011dca1c7cc9b7a9754737a93968168fa5439"
+    },
+    "ThreeSquaresLib.ArithSums": {
+      "path": "ThreeSquaresLib/ArithSums.lean",
+      "sha256": "6d01ffa0af650e3a8c66fa030a17aeccdb909668ee370bb2dc4b702cffb7a279"
+    },
+    "ThreeSquaresLib.B3_Asymp": {
+      "path": "ThreeSquaresLib/B3_Asymp.lean",
+      "sha256": "5464d9464344f13ef9dff0de992e5dc157be10d68fddca643825486a523787a1"
+    },
+    "ThreeSquaresLib.B3_Char": {
+      "path": "ThreeSquaresLib/B3_Char.lean",
+      "sha256": "79eda15ccd4dad54226dedecd729111a4ec1c1e6ee2d45e7078ac3484eff2f4b"
+    },
+    "ThreeSquaresLib.B3_Ellipse": {
+      "path": "ThreeSquaresLib/B3_Ellipse.lean",
+      "sha256": "4ffe2cd0ab98c18aaa42479cbcb335fd1c8c159f427bc58a4e5cb269eb766242"
+    },
+    "ThreeSquaresLib.B3_Fiber": {
+      "path": "ThreeSquaresLib/B3_Fiber.lean",
+      "sha256": "3e9ec6bfe91b7cc194c25e0ff01598d211d4b04a33d0bb42f9e205e0f7a890a9"
+    },
+    "ThreeSquaresLib.B3_Forms": {
+      "path": "ThreeSquaresLib/B3_Forms.lean",
+      "sha256": "5150dbde14dc06e98130069b8dec1dacb4acc3449903ce1715cbe02333f614cc"
+    },
+    "ThreeSquaresLib.B3_GoodClasses": {
+      "path": "ThreeSquaresLib/B3_GoodClasses.lean",
+      "sha256": "22d800d2149818da648d0b1d443cd788669ee116b1379bd05b456b26cc2f8665"
+    },
+    "ThreeSquaresLib.B3_GoodLimit": {
+      "path": "ThreeSquaresLib/B3_GoodLimit.lean",
+      "sha256": "76402cc5ec1c77e164715ce70c6dc77cbf23fb0cab2cc4d4d70a795921b9c382"
+    },
+    "ThreeSquaresLib.B3_Hyp": {
+      "path": "ThreeSquaresLib/B3_Hyp.lean",
+      "sha256": "cb1cea2e287be0669dbf76f5e358690e75f2d92c0a10543a1bd4c111fc06b0b2"
+    },
+    "ThreeSquaresLib.B3_Hyperbola": {
+      "path": "ThreeSquaresLib/B3_Hyperbola.lean",
+      "sha256": "426cce0eca4103c3bb6c81f31e0fe3a05aaefbd798e34e92b92a89373ca79d00"
+    },
+    "ThreeSquaresLib.B3_LocalMult": {
+      "path": "ThreeSquaresLib/B3_LocalMult.lean",
+      "sha256": "818f21497776e05e8485274173b02127cf6504f77a87bfd5b397282a9d9abf6b"
+    },
+    "ThreeSquaresLib.B3_LocalRoots": {
+      "path": "ThreeSquaresLib/B3_LocalRoots.lean",
+      "sha256": "a53c0c3b488b1a655d62ed353dd245f0f8d1564f07147850c31e0b9079697bb2"
+    },
+    "ThreeSquaresLib.B3_RepCount": {
+      "path": "ThreeSquaresLib/B3_RepCount.lean",
+      "sha256": "66939e24114e17913fc0862989bcdfcb75f69cb46fb3f2601880dab28a9dd3fe"
+    },
+    "ThreeSquaresLib.B3_RepresentationLower": {
+      "path": "ThreeSquaresLib/B3_RepresentationLower.lean",
+      "sha256": "324511c6196a38bf783dfa39d1feb68f113b4061ea548a404eb1b55a90db4649"
+    },
+    "ThreeSquaresLib.B3_Roots": {
+      "path": "ThreeSquaresLib/B3_Roots.lean",
+      "sha256": "7ac4bc83490c669aec7db5557d6e6e80df0dd11127b39b6ba3cf43e8718eee87"
+    },
+    "ThreeSquaresLib.B3_SchiLimit": {
+      "path": "ThreeSquaresLib/B3_SchiLimit.lean",
+      "sha256": "9967c8e558eb6175e9fd6a597668d06bff6c36ab2d4f23556e466cc499c2b083"
+    },
+    "ThreeSquaresLib.B3_Squares": {
+      "path": "ThreeSquaresLib/B3_Squares.lean",
+      "sha256": "d8057444add854b5c56e23d9e28c1ebd78dbc89cab7f08783641f8f5f983333d"
+    },
+    "ThreeSquaresLib.B3_Ternary": {
+      "path": "ThreeSquaresLib/B3_Ternary.lean",
+      "sha256": "4932a81d15fcc87ad2a573ea7a7da4a93015d01a0be7738609e426b0ebced444"
+    },
+    "ThreeSquaresLib.B3_VerifiedInputs": {
+      "path": "ThreeSquaresLib/B3_VerifiedInputs.lean",
+      "sha256": "064159aeedd7465bb805ab618fa503ab9e59339a0f6494741134ef5396d17354"
+    },
+    "ThreeSquaresLib.BesselClosed": {
+      "path": "ThreeSquaresLib/BesselClosed.lean",
+      "sha256": "955c3c94ff1b1690745c4a795a92abea049e4fe1129d47805a324783f70ce874"
+    },
+    "ThreeSquaresLib.BesselInt": {
+      "path": "ThreeSquaresLib/BesselInt.lean",
+      "sha256": "0da8bf562bdf26ed3802fcb6a06798aa0d219bd843bd33c9837ab3d75cdc20ba"
+    },
+    "ThreeSquaresLib.BilinTools": {
+      "path": "ThreeSquaresLib/BilinTools.lean",
+      "sha256": "c039e508fdd762a54d5dc5462635475057072cf32773a3f694507b700f8e36ad"
+    },
+    "ThreeSquaresLib.BlockBound": {
+      "path": "ThreeSquaresLib/BlockBound.lean",
+      "sha256": "b6aede6cc47c297a478f2c066c7dd954e7578a8930f301713608be1df33cc58e"
+    },
+    "ThreeSquaresLib.BlockBounds": {
+      "path": "ThreeSquaresLib/BlockBounds.lean",
+      "sha256": "ffdba874dbd7386918256fc2bcaf838133a7cbf386261337b795321cb907b0b7"
+    },
+    "ThreeSquaresLib.BlockConv": {
+      "path": "ThreeSquaresLib/BlockConv.lean",
+      "sha256": "b5d883a041afcfa5ac2fe4a40a400ecff101243fd74cead9b4c7a46a3cd57ce5"
+    },
+    "ThreeSquaresLib.BlockSum": {
+      "path": "ThreeSquaresLib/BlockSum.lean",
+      "sha256": "6a3d6f09ae2cc3d8cdcbc8e0e62d58f7650a44a22456132123c77b72710a7be5"
+    },
+    "ThreeSquaresLib.Blocks": {
+      "path": "ThreeSquaresLib/Blocks.lean",
+      "sha256": "54e5ed5f8c6ba1ada3fd69cf9c38509d46c6aade63a8868e0caeb799c1076088"
+    },
+    "ThreeSquaresLib.CfacClosed": {
+      "path": "ThreeSquaresLib/CfacClosed.lean",
+      "sha256": "96945b9bc4003e0cb60cf46e132c928edc37fe7bac21329f710ee06f4230df90"
+    },
+    "ThreeSquaresLib.ClassSum": {
+      "path": "ThreeSquaresLib/ClassSum.lean",
+      "sha256": "41658d26051d61845846960ce6e24c7f1e7598cb91cb2112e33e29a18907fac6"
+    },
+    "ThreeSquaresLib.Construct": {
+      "path": "ThreeSquaresLib/Construct.lean",
+      "sha256": "e12199225698bf21f6ad4a8505e1fc02d7dd419cfb5f8f6f1d163afa4ab40aac"
+    },
+    "ThreeSquaresLib.CoprimeT": {
+      "path": "ThreeSquaresLib/CoprimeT.lean",
+      "sha256": "5a4c535b78934e791b59f3cc901aaf8892f932406681c28571faeac73cab8bc0"
+    },
+    "ThreeSquaresLib.CritTotal": {
+      "path": "ThreeSquaresLib/CritTotal.lean",
+      "sha256": "161855955a4f186641ca7a89664fa855a645508faf7f5bde5432c6190991513a"
+    },
+    "ThreeSquaresLib.DegreewiseWeyl": {
+      "path": "ThreeSquaresLib/DegreewiseWeyl.lean",
+      "sha256": "7b8f6b8a937132108160a5dbb7877a8fc573a59449639b26dc993945b17cbf30"
+    },
+    "ThreeSquaresLib.DivisorBound": {
+      "path": "ThreeSquaresLib/DivisorBound.lean",
+      "sha256": "40f00ada615353dd33dd275b77920dff56b3d4badd0b615c81702bc841cc557e"
+    },
+    "ThreeSquaresLib.DukeSquarefreeProof": {
+      "path": "ThreeSquaresLib/DukeSquarefreeProof.lean",
+      "sha256": "845444f0395ca6d321b51a6184fb3a1fe038edd1afaa26838dd9746d31c5fb96"
+    },
+    "ThreeSquaresLib.FinalPow": {
+      "path": "ThreeSquaresLib/FinalPow.lean",
+      "sha256": "4779c3f976b6741d2e3e9ee71dc45c0b9697ff5fe9aaedc30ad2d36dacdd945c"
+    },
+    "ThreeSquaresLib.Fischer": {
+      "path": "ThreeSquaresLib/Fischer.lean",
+      "sha256": "b3241d8d1276e07b05493a3ffa5c021d8ee02d44aabb13b005ba1ec4bcf33479"
+    },
+    "ThreeSquaresLib.FourierAux": {
+      "path": "ThreeSquaresLib/FourierAux.lean",
+      "sha256": "a8888e3ec2b88c564fc9ff5fdf33c7d5d7e1de960842bda175988a164b358456"
+    },
+    "ThreeSquaresLib.FourierP": {
+      "path": "ThreeSquaresLib/FourierP.lean",
+      "sha256": "a6773a8c4661fb1a8f47b2d893cf94340e4fe79d416f9dc3a42febafe25aacf6"
+    },
+    "ThreeSquaresLib.FundDom": {
+      "path": "ThreeSquaresLib/FundDom.lean",
+      "sha256": "5a69cec7e0bae4edf77e8e73264bc493637a38d0fefc314f9398728b0d4585d1"
+    },
+    "ThreeSquaresLib.GaussNorm": {
+      "path": "ThreeSquaresLib/GaussNorm.lean",
+      "sha256": "4604d251b8e9ca25373ef2a7dea2fcfb7b0d57ce97ba50271faed13e86debb75"
+    },
+    "ThreeSquaresLib.GaussSum": {
+      "path": "ThreeSquaresLib/GaussSum.lean",
+      "sha256": "a5f806704d45016967d06d9d5b5533b5cb3cc832e5f2e0fd740855695a921747"
+    },
+    "ThreeSquaresLib.GeneralKl": {
+      "path": "ThreeSquaresLib/GeneralKl.lean",
+      "sha256": "286f69dc3307bc1beaf4f84902de68b3e770c0d6c53a7e14af1b14ea1137e67c"
+    },
+    "ThreeSquaresLib.Glue1": {
+      "path": "ThreeSquaresLib/Glue1.lean",
+      "sha256": "51c3c46b69262675fa0d7c368c332eeccecc03594e2dc020bf04c3fd8d3121ca"
+    },
+    "ThreeSquaresLib.Glue2": {
+      "path": "ThreeSquaresLib/Glue2.lean",
+      "sha256": "4777cb22b7db66615671b3351f078397e6a5e126466234468faaf4214f36294e"
+    },
+    "ThreeSquaresLib.Glue3": {
+      "path": "ThreeSquaresLib/Glue3.lean",
+      "sha256": "d63a6a0875c12e6b43cb7e8ea8fa60440efc93af70a938c0e1cade624a268a11"
+    },
+    "ThreeSquaresLib.Glue4": {
+      "path": "ThreeSquaresLib/Glue4.lean",
+      "sha256": "da3d9713200bd9477111350902c9085a2731d9007b46d37f84d88c3a4988a3c9"
+    },
+    "ThreeSquaresLib.Glue5": {
+      "path": "ThreeSquaresLib/Glue5.lean",
+      "sha256": "2a4d554349451a26ec5b7dfa921e5e4bb47a5387049416c8885b4775bedbcb0e"
+    },
+    "ThreeSquaresLib.HInt": {
+      "path": "ThreeSquaresLib/HInt.lean",
+      "sha256": "3143defea260ce2e379ba3c80a4c8d9e7ed3a7d07bcba270fea48e86f6978c04"
+    },
+    "ThreeSquaresLib.HarmDim": {
+      "path": "ThreeSquaresLib/HarmDim.lean",
+      "sha256": "7f07bbd443b0d2fc0529cd90b6c265a2ec080653d350710a152a4dfda641093f"
+    },
+    "ThreeSquaresLib.IsoDegreewiseWeyl": {
+      "path": "ThreeSquaresLib/IsoDegreewiseWeyl.lean",
+      "sha256": "8e703a1d08d86c04ba01feb42999d47e5345d0c7de854a048397493cd19f91b9"
+    },
+    "ThreeSquaresLib.IsoSpan": {
+      "path": "ThreeSquaresLib/IsoSpan.lean",
+      "sha256": "2b3a681bd7b85ad45475d00b912fcc2bc056766eb5811c0112b64df44aa4c930"
+    },
+    "ThreeSquaresLib.IsoWeyl": {
+      "path": "ThreeSquaresLib/IsoWeyl.lean",
+      "sha256": "ec644b4edab7c3c3db969a63050e684e1a608e8f05d2506fdc34c906f7c02b07"
+    },
+    "ThreeSquaresLib.JacobiGauss": {
+      "path": "ThreeSquaresLib/JacobiGauss.lean",
+      "sha256": "4773a020e2c25135d134887946828a37ea999d7cfe476d442c0a52535babe414"
+    },
+    "ThreeSquaresLib.KappaFour": {
+      "path": "ThreeSquaresLib/KappaFour.lean",
+      "sha256": "d39f099523050519ba7a2d38e1a5d92ccc2e266e28fc744c801b7f2efc5441f2"
+    },
+    "ThreeSquaresLib.KlBridge": {
+      "path": "ThreeSquaresLib/KlBridge.lean",
+      "sha256": "a82bd1f47002dd9f71ad528d7ddbbdc2c4e3a104a061ccad56ad930484046638"
+    },
+    "ThreeSquaresLib.KlTerm": {
+      "path": "ThreeSquaresLib/KlTerm.lean",
+      "sha256": "d5ac5d2d13e7c8fc958a52eb5bfea7ac20458a816cad970ab5318748fa18d158"
+    },
+    "ThreeSquaresLib.Kloosterman": {
+      "path": "ThreeSquaresLib/Kloosterman.lean",
+      "sha256": "00909ccf827010e1da1a5e456d972abd59a0999d7a243b98145e8bf52d263d14"
+    },
+    "ThreeSquaresLib.Lattice": {
+      "path": "ThreeSquaresLib/Lattice.lean",
+      "sha256": "1cfdac0f4862f171d5650a5b036917a3226834fbf5e9702729afbd18898a633e"
+    },
+    "ThreeSquaresLib.Level": {
+      "path": "ThreeSquaresLib/Level.lean",
+      "sha256": "76ce78da96f7f43200bfd822d425af08a1a4c5536c09e1fe5532cf8ba5ad9b38"
+    },
+    "ThreeSquaresLib.LevelCount": {
+      "path": "ThreeSquaresLib/LevelCount.lean",
+      "sha256": "76534aca93ea4ab29a28b553bc00681a15e03e6bc130d0c0b389b0bc2d5e092f"
+    },
+    "ThreeSquaresLib.LevelsPow": {
+      "path": "ThreeSquaresLib/LevelsPow.lean",
+      "sha256": "87377a9b68178fb73704bd33d68d0e5d934c6b455b99e95528b143881980b33a"
+    },
+    "ThreeSquaresLib.Lipschitz": {
+      "path": "ThreeSquaresLib/Lipschitz.lean",
+      "sha256": "4fbbc1ad989fd17f8c0ab220694d96026a0bf52c9867637b7765269d1ea97ec7"
+    },
+    "ThreeSquaresLib.Main": {
+      "path": "ThreeSquaresLib/Main.lean",
+      "sha256": "efb27c5e2eb3eaa579dce4a4f747f0710b476bf9bea12d32155a780bcb796373"
+    },
+    "ThreeSquaresLib.Method1": {
+      "path": "ThreeSquaresLib/Method1.lean",
+      "sha256": "5b7d184ac996b7def3c0f4f91f4d996c5f63778dccd08cc2e2c889837bf3ca4a"
+    },
+    "ThreeSquaresLib.Method1Sum": {
+      "path": "ThreeSquaresLib/Method1Sum.lean",
+      "sha256": "6f00fa38b265682c6280470c67b933f6c81608035f71dd33e8ca7c4a750b09b1"
+    },
+    "ThreeSquaresLib.Method2": {
+      "path": "ThreeSquaresLib/Method2.lean",
+      "sha256": "8f8f6bdc49d91929a17e4cb25d55530bf21009e77624ceb17cd141e6aafc6da0"
+    },
+    "ThreeSquaresLib.Method2Ref": {
+      "path": "ThreeSquaresLib/Method2Ref.lean",
+      "sha256": "f2f2b462cb2e00ee77f50d1eb6adcab3a26b0a87758f5ecebaee8ec282da3f75"
+    },
+    "ThreeSquaresLib.Method2Sum": {
+      "path": "ThreeSquaresLib/Method2Sum.lean",
+      "sha256": "d4fbdd041d1f2c8f96d7fe43245dddc32be102cd0a5a6a7e072fd1a3d7d8ac43"
+    },
+    "ThreeSquaresLib.Minkowski": {
+      "path": "ThreeSquaresLib/Minkowski.lean",
+      "sha256": "470e87fae6d151cba543e3e32906e595a5b43c63bf44c91a152a9e4944cd5369"
+    },
+    "ThreeSquaresLib.Mult": {
+      "path": "ThreeSquaresLib/Mult.lean",
+      "sha256": "cc83a26d4372852db41880430dd00565cf3d1c9e6b1f441f7f96d716bd7d4a95"
+    },
+    "ThreeSquaresLib.NumMethods": {
+      "path": "ThreeSquaresLib/NumMethods.lean",
+      "sha256": "042cb83a4fc7577b2ad9e378bfee7da602d1c7c33333ed4ced124589f529d839"
+    },
+    "ThreeSquaresLib.NumSave": {
+      "path": "ThreeSquaresLib/NumSave.lean",
+      "sha256": "ceafd078f887edc864193d05286b678d32cac7d6b7352e795da4d9fac668c41d"
+    },
+    "ThreeSquaresLib.NumWeil": {
+      "path": "ThreeSquaresLib/NumWeil.lean",
+      "sha256": "ca9d2d4a6b3c6f2f5434bb8127b144e9366422c5b45e985a581cd924c44872f0"
+    },
+    "ThreeSquaresLib.PVBlock": {
+      "path": "ThreeSquaresLib/PVBlock.lean",
+      "sha256": "70c91bcded70483526e4d7c5daa8c865175795757deb4091a38043b2430947b9"
+    },
+    "ThreeSquaresLib.Params": {
+      "path": "ThreeSquaresLib/Params.lean",
+      "sha256": "c42c9b9b8bd9632c69dc50a702d85b54dd7141fb8abead90a52b47de4de2e3d1"
+    },
+    "ThreeSquaresLib.PetUnfold": {
+      "path": "ThreeSquaresLib/PetUnfold.lean",
+      "sha256": "21d81f2d8f238203b6f41761d590d709b7a12c3bf81cd6d94409d156caa2c7c2"
+    },
+    "ThreeSquaresLib.Petersson": {
+      "path": "ThreeSquaresLib/Petersson.lean",
+      "sha256": "1a55870c54233222cc0e6c90ac209e870ae75d604914824431fbbaea18f2ee5b"
+    },
+    "ThreeSquaresLib.PeterssonIneq": {
+      "path": "ThreeSquaresLib/PeterssonIneq.lean",
+      "sha256": "9abea0f56cad4ca0b4ca579d42b4440a57a2eb867137fb841e57ce8df386b973"
+    },
+    "ThreeSquaresLib.PhatBound": {
+      "path": "ThreeSquaresLib/PhatBound.lean",
+      "sha256": "1a37954f7c2313564a5bc4deb8d83199686453d2a1600ce4e761eaa0a894539b"
+    },
+    "ThreeSquaresLib.Poincare": {
+      "path": "ThreeSquaresLib/Poincare.lean",
+      "sha256": "2f11ff9439ba7602231772f5600deaf65d1826695197095d267364da3fe6d195"
+    },
+    "ThreeSquaresLib.PowCalc": {
+      "path": "ThreeSquaresLib/PowCalc.lean",
+      "sha256": "34cefaf04b5164a9d333c3ebc3b9163b176149840a83537307c4567361f5866a"
+    },
+    "ThreeSquaresLib.PrimePowGauss": {
+      "path": "ThreeSquaresLib/PrimePowGauss.lean",
+      "sha256": "3b2dd3bfa0413792aa809889a395fe838599a426b9933a30167323a74089d12d"
+    },
+    "ThreeSquaresLib.PrimePowKl": {
+      "path": "ThreeSquaresLib/PrimePowKl.lean",
+      "sha256": "0ceb9889b7d17864c31c3ff155705d945edc235067ddf9f3f108cd061829a266"
+    },
+    "ThreeSquaresLib.PrimePowSalie": {
+      "path": "ThreeSquaresLib/PrimePowSalie.lean",
+      "sha256": "5dc093caefcb91dd1eef5d73ab40ff247386e0cbc2c099345e863fb2102874da"
+    },
+    "ThreeSquaresLib.PrimePowT": {
+      "path": "ThreeSquaresLib/PrimePowT.lean",
+      "sha256": "c23c259f2ba5b9c6c86b153ae8ea24148fee7f7d89aaeb5346eef6eae18eb277"
+    },
+    "ThreeSquaresLib.PrimeT": {
+      "path": "ThreeSquaresLib/PrimeT.lean",
+      "sha256": "109b99ee7cd0ffeb6c0f2fc3b3e8dc8e60117d12b3a66fca411e65af91d9c289"
+    },
+    "ThreeSquaresLib.RQSplit": {
+      "path": "ThreeSquaresLib/RQSplit.lean",
+      "sha256": "3a351a5f63054d198ad0d9103f773d26b8b588bd95f1928f82ad0c8e4bda2d4d"
+    },
+    "ThreeSquaresLib.Reduction": {
+      "path": "ThreeSquaresLib/Reduction.lean",
+      "sha256": "1a915ca9172e514956465ec949463aa2fec5b06a560922a37df6c39569b01552"
+    },
+    "ThreeSquaresLib.RootsUnitary": {
+      "path": "ThreeSquaresLib/RootsUnitary.lean",
+      "sha256": "889604488a9f665db78150439a63730e023e47184ddb4334cfcd9c88c4235c3f"
+    },
+    "ThreeSquaresLib.SigmaBound": {
+      "path": "ThreeSquaresLib/SigmaBound.lean",
+      "sha256": "ca6e390bef7271aa8f2e751ee1a63059fe4b0c7738cc75247cc636bb7bc4ad18"
+    },
+    "ThreeSquaresLib.SmoothSum": {
+      "path": "ThreeSquaresLib/SmoothSum.lean",
+      "sha256": "0b79e3a557438276e3bd18899861a80f02a48d13bb77b1a365cbfd7e46743004"
+    },
+    "ThreeSquaresLib.Split": {
+      "path": "ThreeSquaresLib/Split.lean",
+      "sha256": "9e6fd8be9d04a4c5c953f3b0f6e331565be1a24af876b3f87f86a6671d2a4d70"
+    },
+    "ThreeSquaresLib.SqfT": {
+      "path": "ThreeSquaresLib/SqfT.lean",
+      "sha256": "234e919666970d80687b4c72599ec4d65dc2d5786f625914ab3798e541fa09b1"
+    },
+    "ThreeSquaresLib.Squarefull": {
+      "path": "ThreeSquaresLib/Squarefull.lean",
+      "sha256": "acb38d7ca24c0abab5307e1616b7500dc7071674a37cde25219e068ece119176"
+    },
+    "ThreeSquaresLib.TBound": {
+      "path": "ThreeSquaresLib/TBound.lean",
+      "sha256": "75dfa888d9c2f6d8eac78931c20e0e1a236de543dcc19f7522c383e1f28bfc49"
+    },
+    "ThreeSquaresLib.TSplit": {
+      "path": "ThreeSquaresLib/TSplit.lean",
+      "sha256": "df5ff02027ad97177c3f33aa2793bd06d7904c83e60460c65cacbd56c5292125"
+    },
+    "ThreeSquaresLib.TSum": {
+      "path": "ThreeSquaresLib/TSum.lean",
+      "sha256": "17d56b40ad3047598f6919420d34fca4405f7e97dcdc6ac38305ed6e59e585bb"
+    },
+    "ThreeSquaresLib.Theta": {
+      "path": "ThreeSquaresLib/Theta.lean",
+      "sha256": "8ecc5fb7b16bde07d97e96054bb6e2b43263ae1c0db2ac49715986a3487f1d8b"
+    },
+    "ThreeSquaresLib.ThetaAut": {
+      "path": "ThreeSquaresLib/ThetaAut.lean",
+      "sha256": "94c7366a34bd568dbde7754d233f48dee55da11fe6c75f0f7327f4c816a28f03"
+    },
+    "ThreeSquaresLib.ThetaBound": {
+      "path": "ThreeSquaresLib/ThetaBound.lean",
+      "sha256": "feba1c592671e2203a8852177064ba5680a5bfe4b62a49e93c7acad55baaedc0"
+    },
+    "ThreeSquaresLib.ThetaCoeff": {
+      "path": "ThreeSquaresLib/ThetaCoeff.lean",
+      "sha256": "0de69d35cf5667270b8ae726391cb0d9d92d2a3bf6013a42a44bfc6c1c171dd1"
+    },
+    "ThreeSquaresLib.ThetaCusp": {
+      "path": "ThreeSquaresLib/ThetaCusp.lean",
+      "sha256": "41505a9bcedb65e57bed0f63c1f4e1ba30454bc0b82512c054b110a007219893"
+    },
+    "ThreeSquaresLib.ThetaHarm": {
+      "path": "ThreeSquaresLib/ThetaHarm.lean",
+      "sha256": "89cfd4a49412ce54f482126eccd1d909195631aecbe8b74191235343401e8f6f"
+    },
+    "ThreeSquaresLib.ThetaJac": {
+      "path": "ThreeSquaresLib/ThetaJac.lean",
+      "sha256": "51e48c9097c8116305ab89ce75dc670708b22e414532d9be27280e6625b14b23"
+    },
+    "ThreeSquaresLib.ThetaMult": {
+      "path": "ThreeSquaresLib/ThetaMult.lean",
+      "sha256": "50846127eb555c3218ca869d9c53ad45e73381bb62e1aa61c1fe17c7c3195bbc"
+    },
+    "ThreeSquaresLib.TrivArith": {
+      "path": "ThreeSquaresLib/TrivArith.lean",
+      "sha256": "c22f5d3c3f5c7a32cc9b1277b00ffd00700c0b75cec884b23ede061a22f4e6e4"
+    },
+    "ThreeSquaresLib.TrivRange": {
+      "path": "ThreeSquaresLib/TrivRange.lean",
+      "sha256": "344bc52715a2834c6b3c3a0ef220f7749c10cf0a8e5e6227470e27ea5ee946ad"
+    },
+    "ThreeSquaresLib.TrivWeights": {
+      "path": "ThreeSquaresLib/TrivWeights.lean",
+      "sha256": "a7ecf63fb6426362b2330922693561a8743182e8fac022880fcec5b56b7d192e"
+    },
+    "ThreeSquaresLib.Twisted": {
+      "path": "ThreeSquaresLib/Twisted.lean",
+      "sha256": "52d2ed42a076a2042acb4200ad4e22a0437b43194557475d2d79621c77a25eb0"
+    },
+    "ThreeSquaresLib.Unfold": {
+      "path": "ThreeSquaresLib/Unfold.lean",
+      "sha256": "f742282940fd0e0c4ed35ef6b075d9251aa8c9f8876ee6cbf1e91fa188c50868"
+    },
+    "ThreeSquaresLib.Unimodular": {
+      "path": "ThreeSquaresLib/Unimodular.lean",
+      "sha256": "15d8c1f1c44f9f37c9dd740648925c119d3d761731ec15b062bdc0239cac0d58"
+    },
+    "ThreeSquaresLib.WeightBounds": {
+      "path": "ThreeSquaresLib/WeightBounds.lean",
+      "sha256": "4816fd5523a0d50bdaa54e81b591ddf6606e4af3e548966d30974df482902b74"
+    },
+    "ThreeSquaresLib.WeightInst": {
+      "path": "ThreeSquaresLib/WeightInst.lean",
+      "sha256": "35dbf9eb1ce0dfb82e0660484385537de8677f8ef34443c5392fb899dc66bd8b"
+    },
+    "ThreeSquaresLib.WeightSmooth": {
+      "path": "ThreeSquaresLib/WeightSmooth.lean",
+      "sha256": "48ccbbc50e9d0d169f5a3e54c6df83778a14e79f35ca65faca3da4d0a1b8f81b"
+    },
+    "ThreeSquaresLib.Weyl": {
+      "path": "ThreeSquaresLib/Weyl.lean",
+      "sha256": "cd74cca9f7103aac7bcf29092eafd484d11bd1db77fe00afd06a7e802400daba"
+    },
+    "ThreeSquaresLib.WeylAvg": {
+      "path": "ThreeSquaresLib/WeylAvg.lean",
+      "sha256": "4bcca483cd03a6ebe187442836f8912e33558d27e6de104398b66bc40ee525dd"
+    },
+    "ThreeSquaresLib.WeylCap": {
+      "path": "ThreeSquaresLib/WeylCap.lean",
+      "sha256": "1e22d0fa4846fb51dd7500f43c8c5cc3204ce9a73e1ad492c02a70a2d4c95aac"
+    },
+    "ThreeSquaresLib.WeylFinal": {
+      "path": "ThreeSquaresLib/WeylFinal.lean",
+      "sha256": "c7fe93ce0622f485809694cb78da40834028bde91dd4b9c1a9a34c96f40342ef"
+    },
+    "ThreeSquaresLib.WeylPow": {
+      "path": "ThreeSquaresLib/WeylPow.lean",
+      "sha256": "c0195d40f83ac9bb65568dc104a09c81a08803a6d75fc2a9ae6bdfe5a9d5ad52"
+    },
+    "ThreeSquaresLib.WeylStep": {
+      "path": "ThreeSquaresLib/WeylStep.lean",
+      "sha256": "07b58682d283d00a1a29ba3739c78b1f6026ffa1b57c81ef90ceb33eebc3ef31"
+    },
+    "rml.carlitz.class_ghost": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/class_ghost.lean",
+      "sha256": "0262566a4cc45e70b1679b89a3cfc33e263d101735ae2fd181c0914cb8850c07"
+    },
+    "rml.carlitz.class_value": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/class_value.lean",
+      "sha256": "31285df143a5de0b633d02ff239270fafa4d5d2badec92f5089927ee719057e9"
+    },
+    "rml.carlitz.coeff_equiv": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/coeff_equiv.lean",
+      "sha256": "59f8bfc7a9a5166406c7972298c90df795e20dc19aebfcc5aa0b75827a888262"
+    },
+    "rml.carlitz.conj_decomp": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/conj_decomp.lean",
+      "sha256": "2a82762c8fe49cb31172889c268b6e182ce1dbd6ddb020d6d917c3b10fe14dcb"
+    },
+    "rml.carlitz.dickson_finite_algebra": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/dickson_finite_algebra.lean",
+      "sha256": "388e8328ec384f6732b85f9599de24a462ea75f14bfdb2558b1934824a68fb46"
+    },
+    "rml.carlitz.extension_defs": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/extension_defs.lean",
+      "sha256": "37deb19efb17077cc2c6e5bdd1515d96d2460176c81d51c3dba356f9ffcadfa3"
+    },
+    "rml.carlitz.factor_data": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/factor_data.lean",
+      "sha256": "43399eb9a70d90e0cda8faf2def6cae4a9fa39537bf62a9773ee9e099e5da568"
+    },
+    "rml.carlitz.factor_weight": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/factor_weight.lean",
+      "sha256": "f87369a8e9c6989a7c022f8028004beb30c508bb48d1891f09778cf33184fb02"
+    },
+    "rml.carlitz.formal_algebra": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/formal_algebra.lean",
+      "sha256": "dd275bf4d9e99a220af9e23c5b1db80f6c4d50136623d2e87fc573194d05335d"
+    },
+    "rml.carlitz.generating_identity": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/generating_identity.lean",
+      "sha256": "ed9a0cf1b015e11d1746a241ecca6ad7611d4dcfd3b295324fbbe187a050d9e9"
+    },
+    "rml.carlitz.irred_ghost": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/irred_ghost.lean",
+      "sha256": "25d81f4490e2b44e2a7d62abf3d27fcc302e0e101b2b937586302ab8abc18268"
+    },
+    "rml.carlitz.minpoly_inverse": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/minpoly_inverse.lean",
+      "sha256": "d24097aa98810464e9354d4ea32aaa8266c6a6d81d5f4c00ddcc8ceff983effd"
+    },
+    "rml.carlitz.newton_index": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/newton_index.lean",
+      "sha256": "c7241a5887e6caa541a88c7713c10cf9c79d8e780d3676c3d7fe6e5683383d5b"
+    },
+    "rml.carlitz.newton_sum": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/newton_sum.lean",
+      "sha256": "624282e9ac883cbe5d7bf8ad82407b52ff96f61198f731f5abdff7ab01521f38"
+    },
+    "rml.carlitz.recurrence_package": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/recurrence_package.lean",
+      "sha256": "2d69543a2d37a861be522df2c9b955ce371716a98d017ce330c00f0d83e76d91"
+    },
+    "rml.carlitz.relevant_irred": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/relevant_irred.lean",
+      "sha256": "e9c8e4355b5329c695783751cac2b7d834dbe06e312ddcba13d4f4fec4c2940a"
+    },
+    "rml.stepanov.algebra": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/algebra.lean",
+      "sha256": "40b9f72742daef33ce745b13394ce8fb63aade99207ab4639f2261a258b39749"
+    },
+    "rml.stepanov.artin_schreier": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/artin_schreier.lean",
+      "sha256": "6aa2f39bd87665008cf4ad9b136b94b39d848064ff9d5b9543e2b34cd9833052"
+    },
+    "rml.stepanov.auxiliary": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/auxiliary.lean",
+      "sha256": "a46cca02b653893077ff7f526dd9fc29aff46ae933967f429d0294e96f40a1d6"
+    },
+    "rml.stepanov.carlitz_roots": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/carlitz_roots.lean",
+      "sha256": "0e0ed25f53a30d58af5f9fe3463d7e18ff80b50e9da9a27d72b01c424558e71c"
+    },
+    "rml.stepanov.curve_count": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/curve_count.lean",
+      "sha256": "98686bbe871a669acebafd413a53aeb901dff973d5988a37e40e451fb9ccdad0"
+    },
+    "rml.stepanov.curve_trace": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/curve_trace.lean",
+      "sha256": "9b41c00c2098b85a5f6d8992053afa977b819725f159a105f28f7a921afd1179"
+    },
+    "rml.stepanov.defect": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/defect.lean",
+      "sha256": "3444dcc5373136693b7747a2c8c863f64664bc08cd3a6f0bc16c633fa80b56c1"
+    },
+    "rml.stepanov.finite_sum": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/finite_sum.lean",
+      "sha256": "f52d0acec74637e1a5c2d4092a5b5ec7c5667302ba3de5731c656e12bc291b4b"
+    },
+    "rml.stepanov.parameters": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/parameters.lean",
+      "sha256": "169e463151fb3be0f5feaaf9cfdebf4ed8cb74c64314bfdbc81788afa099cda8"
+    },
+    "rml.stepanov.point_count_bridge": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/point_count_bridge.lean",
+      "sha256": "abb99a5a905534a2774efa7751b2fa01128f1aa4fc6b463fcb32f30e0637d6b4"
+    },
+    "rml.stepanov.power_sum_spectral": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/power_sum_spectral.lean",
+      "sha256": "f6f711c181249290e03e59ef49fe2f23ce7540f5bac6cb72418948772f645b40"
+    },
+    "rml.stepanov.prime_weil": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/prime_weil.lean",
+      "sha256": "df0ea78df6cef08bca6da22c472cf23571cf1a331378303e4681ba45535926d8"
+    },
+    "rml.stepanov.prime_weil_bridge": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/prime_weil_bridge.lean",
+      "sha256": "013a2aa4204a019afc837d8b53ec7ee9deb2af2c4b071326ccd0949fa9a33771"
+    },
+    "rml.stepanov.scalar_kext": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/scalar_kext.lean",
+      "sha256": "c716f44b9921316c1d5a71739bcfe282a906109af59da789160b071877c769be"
+    },
+    "rml.stepanov.specialized_curve": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/specialized_curve.lean",
+      "sha256": "6ecc5960ff9b47e27a2e8005d6be5454dd0f9173086655b3fefe3779b0086f9e"
+    },
+    "rml.stepanov.spectral_bound": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/spectral_bound.lean",
+      "sha256": "27bda3811f0bebae65d68e96e77ecbac71525dea6873cc1a363bb3001ae0bbb8"
+    },
+    "rml.weil.crt_and_completion": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/weil/crt_and_completion.lean",
+      "sha256": "24877d6fa7cf274fed95e770b61688927cd34a10bc25d6a31a971e1df6da23c7"
+    },
+    "rml.weil.prime_foundation": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/weil/prime_foundation.lean",
+      "sha256": "883d8096918634c550a12d241134cd16b39bad8d70aa83598a16fe16e6ae5567"
+    },
+    "rml.weil.prime_kloosterman": {
+      "path": "vendor/weil_bounds_toolkit/source/rml/weil/prime_kloosterman.lean",
+      "sha256": "4eaeea919a8430ed490eb47ff127a50851a893104145bafb2e040c15bd4ab626"
+    }
+  },
+  "scope": "Exact H1 import closure; no ThreeSquaresDense/H2 endpoint submitted."
+}

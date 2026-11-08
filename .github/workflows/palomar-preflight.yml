@@ -18,7 +18,7 @@ jobs:
       repository: jtraverso/duke-schulze-pillot-ternary
       commit: ${{ inputs.commit }}
       pipeline_commit: 14aa8d6b3c2f14a8540605e37144560b9a00e7e7
-      request_id: dukeschulze1
+      request_id: dsph1v200001
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"comparator_config_path": "comparator.json", "authorization_relationship": "I am a responsible author or maintainer"}'
+      options: '{"comparator_config_path": "comparator.json", "existing_id": "PALOMAR-2026-11-07-000007", "authorization_relationship": "I am a responsible author or maintainer"}'

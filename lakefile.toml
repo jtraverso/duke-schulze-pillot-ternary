@@ -1,6 +1,6 @@
 name = "dsp_ternary"
 version = "0.1.0"
-defaultTargets = ["DSPLib", "DSPChallenge", "DSPSolution"]
+defaultTargets = ["DSPChallenge", "DSPSolution"]
 requiresModuleSystem = true
 
 [leanOptions]
@@ -23,3 +23,17 @@ roots = ["DSPChallenge"]
 [[lean_lib]]
 name = "DSPSolution"
 roots = ["DSPSolution"]
+
+[[lean_lib]]
+name = "ThreeSquaresLib"
+globs = ["ThreeSquaresLib.+"]
+
+[[lean_lib]]
+name = "rml"
+srcDir = "vendor/weil_bounds_toolkit/source"
+globs = ["rml.*"]
+
+[[lean_lib]]
+name = "LeanLab"
+srcDir = "vendor/goldbach_siegel"
+globs = ["LeanLab.+"]

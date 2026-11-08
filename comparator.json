@@ -6,7 +6,8 @@
     "DukeSchulzePillot.repCount_le",
     "DukeSchulzePillot.average_le",
     "DukeSchulzePillot.thm3_ii",
-    "DukeSchulzePillot.spn_upper"
+    "DukeSchulzePillot.spn_upper",
+    "DukeSchulzePillot.squarefree_three_squares_in_caps"
   ],
   "definition_names": [
     "DukeSchulzePillot.qform",

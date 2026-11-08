@@ -9,6 +9,8 @@ public import Mathlib.LinearAlgebra.Matrix.Symmetric
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 public import Mathlib.NumberTheory.Divisors
 public import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Mathlib.Algebra.Squarefree.Basic
 
 /-!
 # Duke–Schulze-Pillot (1990): Lemma 5(ii) (upper bound) and Theorem 3(ii)
@@ -94,6 +96,15 @@ theorem spn_upper (A : Matrix (Fin 3) (Fin 3) ℤ) (hA : A.IsSymm)
     (hThm3i : ∀ ε : ℝ, 0 < ε → ∃ C : ℝ, ∀ n ∈ S, 1 ≤ n →
       |(repCount A h n : ℝ) - R n| ≤ C * (n : ℝ) ^ (1 / 2 - 1 / 28 + ε)) :
     ∀ ε : ℝ, 0 < ε → ∃ C : ℝ, ∀ n ∈ S, 1 ≤ n → R n ≤ C * (n : ℝ) ^ (1 / 2 + ε) := by
+  sorry
+
+/-- **H1 (unconditional).** Every fixed cap contains an integral representation of every
+sufficiently large squarefree integer congruent to 3 modulo 8. The cutoff is ineffective. -/
+theorem squarefree_three_squares_in_caps (u : Fin 3 → ℝ)
+    (hu : ∑ i, u i ^ 2 = 1) (ε : ℝ) (hε : 0 < ε) :
+    ∃ T₀ : ℕ, ∀ t : ℕ, T₀ ≤ t → Squarefree t → t % 8 = 3 →
+      ∃ x : Fin 3 → ℤ, ∑ i, x i ^ 2 = (t : ℤ) ∧
+        ∀ i, |(x i : ℝ) - Real.sqrt t * u i| ≤ ε * Real.sqrt t := by
   sorry
 
 end DukeSchulzePillot

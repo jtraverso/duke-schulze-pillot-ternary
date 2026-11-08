@@ -135,3 +135,14 @@ determination of the logarithm. With our conventions, it is equal to `exp (y log
 noncomputable def rpow (x y : ℝ) :=
   ((x : ℂ) ^ (y : ℂ)).re
 ```
+# Additional Mathlib notions in H1
+
+The new fixed-cap statement uses `Squarefree t` for a squarefree natural
+number (`Mathlib.Algebra.Squarefree.Basic`), and `Real.sqrt t` for the
+nonnegative real square root (`Mathlib.Analysis.SpecialFunctions.Sqrt`).
+`Fin 3 → ℝ` and `Fin 3 → ℤ` are coordinate vectors; the sums range over
+all three coordinates. The statement spells out the coordinate inequalities
+and the integer sum-of-squares equation. It introduces no new definition hole
+or analytic hypothesis. The toolchain and Mathlib revision remain those fixed
+by the repository manifest.
+

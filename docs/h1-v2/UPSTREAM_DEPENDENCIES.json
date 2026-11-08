@@ -1,0 +1,490 @@
+{
+  "dependencies": [
+    {
+      "dependency": "weil",
+      "repository": "PalomarArchive/charliedorsey--weil-bounds-toolkit--fdaf04f318ed",
+      "commit": "7adcd23667b063ae54cc0e8707c89ce259e8fd31",
+      "files": [
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/class_ghost.lean",
+          "upstream_relative_path": "rml/carlitz/class_ghost.lean",
+          "upstream_sha256": "480b181d284affe5d47a3a14ec56941f89103176afc29dd20cf5e980f08836d0",
+          "local_sha256": "0262566a4cc45e70b1679b89a3cfc33e263d101735ae2fd181c0914cb8850c07"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/class_value.lean",
+          "upstream_relative_path": "rml/carlitz/class_value.lean",
+          "upstream_sha256": "a790e1de2ab3f99d71559b8fd29a53916028c61bb3d62459a87f9dfc01e58028",
+          "local_sha256": "31285df143a5de0b633d02ff239270fafa4d5d2badec92f5089927ee719057e9"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/coeff_equiv.lean",
+          "upstream_relative_path": "rml/carlitz/coeff_equiv.lean",
+          "upstream_sha256": "1fd06f4ce5c174a8c3a3a594b95770e52ce2ef84975dffef9fba397fbb43976d",
+          "local_sha256": "59f8bfc7a9a5166406c7972298c90df795e20dc19aebfcc5aa0b75827a888262"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/conj_decomp.lean",
+          "upstream_relative_path": "rml/carlitz/conj_decomp.lean",
+          "upstream_sha256": "b0f5d8c2b33482061c682cb012b0c99702d5246ffbf63c4440818b70c8d6b088",
+          "local_sha256": "2a82762c8fe49cb31172889c268b6e182ce1dbd6ddb020d6d917c3b10fe14dcb"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/dickson_finite_algebra.lean",
+          "upstream_relative_path": "rml/carlitz/dickson_finite_algebra.lean",
+          "upstream_sha256": "935f3b2a5c54165a9120b274e46c2a0eb65511852247662751fa19b74ccf318c",
+          "local_sha256": "388e8328ec384f6732b85f9599de24a462ea75f14bfdb2558b1934824a68fb46"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/extension_defs.lean",
+          "upstream_relative_path": "rml/carlitz/extension_defs.lean",
+          "upstream_sha256": "c897b5248290bf09e4789ee04f379f2271b12b96033f5569100f2b32e3fb5f8c",
+          "local_sha256": "37deb19efb17077cc2c6e5bdd1515d96d2460176c81d51c3dba356f9ffcadfa3"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/factor_data.lean",
+          "upstream_relative_path": "rml/carlitz/factor_data.lean",
+          "upstream_sha256": "f375be3c9ecc3edb267917b414c7780e9e73ecfa6ea23f42b62254c263ee5e3f",
+          "local_sha256": "43399eb9a70d90e0cda8faf2def6cae4a9fa39537bf62a9773ee9e099e5da568"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/factor_weight.lean",
+          "upstream_relative_path": "rml/carlitz/factor_weight.lean",
+          "upstream_sha256": "b5d7c44af469c78ceda920617d3fff25b4511b7e8367400ec976d08d0d8b5b55",
+          "local_sha256": "f87369a8e9c6989a7c022f8028004beb30c508bb48d1891f09778cf33184fb02"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/formal_algebra.lean",
+          "upstream_relative_path": "rml/carlitz/formal_algebra.lean",
+          "upstream_sha256": "61d55baa974e3d5054fcb0d963047357db6e2a2b1c55a253077fe65bced66d96",
+          "local_sha256": "dd275bf4d9e99a220af9e23c5b1db80f6c4d50136623d2e87fc573194d05335d"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/generating_identity.lean",
+          "upstream_relative_path": "rml/carlitz/generating_identity.lean",
+          "upstream_sha256": "848d1c21f3468d7453ebb8e2dde9b3ca6bedb11035e028886d1535371accd4ae",
+          "local_sha256": "ed9a0cf1b015e11d1746a241ecca6ad7611d4dcfd3b295324fbbe187a050d9e9"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/irred_ghost.lean",
+          "upstream_relative_path": "rml/carlitz/irred_ghost.lean",
+          "upstream_sha256": "dce7ae36176680558156cc6eb3b79cc5c6a7e28d4e8528249399cd70c554545a",
+          "local_sha256": "25d81f4490e2b44e2a7d62abf3d27fcc302e0e101b2b937586302ab8abc18268"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/minpoly_inverse.lean",
+          "upstream_relative_path": "rml/carlitz/minpoly_inverse.lean",
+          "upstream_sha256": "13a88dc88f25f1ce70a32defbe7114e12a7e0f23c4d3724ad5e33d2f0779e823",
+          "local_sha256": "d24097aa98810464e9354d4ea32aaa8266c6a6d81d5f4c00ddcc8ceff983effd"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/newton_index.lean",
+          "upstream_relative_path": "rml/carlitz/newton_index.lean",
+          "upstream_sha256": "285b5bb886b2df44d8df259f99ff1f6b5560701d9353371646a542242e4e9d29",
+          "local_sha256": "c7241a5887e6caa541a88c7713c10cf9c79d8e780d3676c3d7fe6e5683383d5b"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/newton_sum.lean",
+          "upstream_relative_path": "rml/carlitz/newton_sum.lean",
+          "upstream_sha256": "da17372417550f85944d91d1065b3e5e62e06d006deac7a492aa4fab46604726",
+          "local_sha256": "624282e9ac883cbe5d7bf8ad82407b52ff96f61198f731f5abdff7ab01521f38"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/recurrence_package.lean",
+          "upstream_relative_path": "rml/carlitz/recurrence_package.lean",
+          "upstream_sha256": "5a6097816e893c7f9cfb44d1611de8eddacccbb7a571dfd6f9f4fb9704c688a4",
+          "local_sha256": "2d69543a2d37a861be522df2c9b955ce371716a98d017ce330c00f0d83e76d91"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/carlitz/relevant_irred.lean",
+          "upstream_relative_path": "rml/carlitz/relevant_irred.lean",
+          "upstream_sha256": "68e0e3b74c4420733bedf1d68c00450746872f5ceaaacbdd352d8bdf21b5997f",
+          "local_sha256": "e9c8e4355b5329c695783751cac2b7d834dbe06e312ddcba13d4f4fec4c2940a"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/algebra.lean",
+          "upstream_relative_path": "rml/stepanov/algebra.lean",
+          "upstream_sha256": "9b7adf51ddd4c002ceec292be3f1789eee5073d480d83508a08579d2aaabbaf0",
+          "local_sha256": "40b9f72742daef33ce745b13394ce8fb63aade99207ab4639f2261a258b39749"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/artin_schreier.lean",
+          "upstream_relative_path": "rml/stepanov/artin_schreier.lean",
+          "upstream_sha256": "67aebf2c5512e00bb7e1ef22cd0ce8daaee4486d650f60c0ba6cea34512535aa",
+          "local_sha256": "6aa2f39bd87665008cf4ad9b136b94b39d848064ff9d5b9543e2b34cd9833052"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/auxiliary.lean",
+          "upstream_relative_path": "rml/stepanov/auxiliary.lean",
+          "upstream_sha256": "ad72fbf23dbf7280949ebbffbd032cd5c265a784dfa4a4685914094de2678991",
+          "local_sha256": "a46cca02b653893077ff7f526dd9fc29aff46ae933967f429d0294e96f40a1d6"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/carlitz_roots.lean",
+          "upstream_relative_path": "rml/stepanov/carlitz_roots.lean",
+          "upstream_sha256": "6f9af7091f4088db3f4b01dc8f3c7d107489f4136b800652a5c10be44acb00a3",
+          "local_sha256": "0e0ed25f53a30d58af5f9fe3463d7e18ff80b50e9da9a27d72b01c424558e71c"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/curve_count.lean",
+          "upstream_relative_path": "rml/stepanov/curve_count.lean",
+          "upstream_sha256": "4dc802a9cee538c9852b02b79b3c3e5f7341195e775e481bd2b648190f7e23ac",
+          "local_sha256": "98686bbe871a669acebafd413a53aeb901dff973d5988a37e40e451fb9ccdad0"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/curve_trace.lean",
+          "upstream_relative_path": "rml/stepanov/curve_trace.lean",
+          "upstream_sha256": "a64981e792f8d06818c7bb21381ac91e046a4e1a9bcc88d95711f8d9cb76ad19",
+          "local_sha256": "9b41c00c2098b85a5f6d8992053afa977b819725f159a105f28f7a921afd1179"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/defect.lean",
+          "upstream_relative_path": "rml/stepanov/defect.lean",
+          "upstream_sha256": "478ac0a644210b0ad15bbaa35dfa602d039279604ce79011a5205c2b4ae65dbb",
+          "local_sha256": "3444dcc5373136693b7747a2c8c863f64664bc08cd3a6f0bc16c633fa80b56c1"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/finite_sum.lean",
+          "upstream_relative_path": "rml/stepanov/finite_sum.lean",
+          "upstream_sha256": "3b036be979bf6369f9f420723076355017b1012237c265b7148a04a8f37fa4cd",
+          "local_sha256": "f52d0acec74637e1a5c2d4092a5b5ec7c5667302ba3de5731c656e12bc291b4b"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/parameters.lean",
+          "upstream_relative_path": "rml/stepanov/parameters.lean",
+          "upstream_sha256": "3c4c9cc2da9104db00089f41a12872137b4158e651a36631e177dc95a561d217",
+          "local_sha256": "169e463151fb3be0f5feaaf9cfdebf4ed8cb74c64314bfdbc81788afa099cda8"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/point_count_bridge.lean",
+          "upstream_relative_path": "rml/stepanov/point_count_bridge.lean",
+          "upstream_sha256": "f00864c9a519d6d6ee006e7eb248c213a80b233c166650b58cb6a92a54400840",
+          "local_sha256": "abb99a5a905534a2774efa7751b2fa01128f1aa4fc6b463fcb32f30e0637d6b4"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/power_sum_spectral.lean",
+          "upstream_relative_path": "rml/stepanov/power_sum_spectral.lean",
+          "upstream_sha256": "36f817c75f92d638cc4133793f611c0de58ea5f91188c2020357f15609ab0339",
+          "local_sha256": "f6f711c181249290e03e59ef49fe2f23ce7540f5bac6cb72418948772f645b40"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/prime_weil.lean",
+          "upstream_relative_path": "rml/stepanov/prime_weil.lean",
+          "upstream_sha256": "12845f879333da73098a5b9d6ba7120048f0c5355ddad4821d782ac57a0f1c66",
+          "local_sha256": "df0ea78df6cef08bca6da22c472cf23571cf1a331378303e4681ba45535926d8"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/prime_weil_bridge.lean",
+          "upstream_relative_path": "rml/stepanov/prime_weil_bridge.lean",
+          "upstream_sha256": "4b548272648bdcc4819a339d7eeb2ab10a4030a52814c5ad713ad3b72fb76eaf",
+          "local_sha256": "013a2aa4204a019afc837d8b53ec7ee9deb2af2c4b071326ccd0949fa9a33771"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/scalar_kext.lean",
+          "upstream_relative_path": "rml/stepanov/scalar_kext.lean",
+          "upstream_sha256": "ccd80dec235faae49253132c81964060ba70f743290faa321f8501a19f580493",
+          "local_sha256": "c716f44b9921316c1d5a71739bcfe282a906109af59da789160b071877c769be"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/specialized_curve.lean",
+          "upstream_relative_path": "rml/stepanov/specialized_curve.lean",
+          "upstream_sha256": "32fa55db8b96752d0b9cc474ff379232b5b48dde317f5825d7e35e0f705db2b1",
+          "local_sha256": "6ecc5960ff9b47e27a2e8005d6be5454dd0f9173086655b3fefe3779b0086f9e"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/stepanov/spectral_bound.lean",
+          "upstream_relative_path": "rml/stepanov/spectral_bound.lean",
+          "upstream_sha256": "af18f6fdb37447419a4976e72a961badc57b5955c0f9f3a3c1638f4d72f23de3",
+          "local_sha256": "27bda3811f0bebae65d68e96e77ecbac71525dea6873cc1a363bb3001ae0bbb8"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/weil/axioms.lean",
+          "upstream_relative_path": "rml/weil/axioms.lean",
+          "upstream_sha256": "a7a6fdd5bbf79872d17297ee4aef4c21f7994b7537988b14b2c7b6181e1539d8",
+          "local_sha256": "32a76ac28cfc5b99b9226359e2fb42eaff2da4e20f1b478da2dd19eda6fccba8"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/weil/contracts.lean",
+          "upstream_relative_path": "rml/weil/contracts.lean",
+          "upstream_sha256": "f71ee473180e44441ad8c4356a386ab9de5f0203e8e78fd47ff6832b46506791",
+          "local_sha256": "cac6f065969c4f59ceb9ff43e2989786ad56cfc4a2a874fb4b9483bd47531f9c"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/weil/crt_and_completion.lean",
+          "upstream_relative_path": "rml/weil/crt_and_completion.lean",
+          "upstream_sha256": "319517d23becebe9b883e838953372599bda73dc8de38237cacb93d58f76dcf5",
+          "local_sha256": "24877d6fa7cf274fed95e770b61688927cd34a10bc25d6a31a971e1df6da23c7"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/weil/edge_cases.lean",
+          "upstream_relative_path": "rml/weil/edge_cases.lean",
+          "upstream_sha256": "0f7d9105f7627ef1f45a8bdd01a77050df9ec7b9bc9e9e8d4106529c65b2dd66",
+          "local_sha256": "78f31042d83d0231616781d3b42f5c8cd8b3412a8490bd0b83e51701cc53d76a"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/weil/prime_foundation.lean",
+          "upstream_relative_path": "rml/weil/prime_foundation.lean",
+          "upstream_sha256": "ce79504705266eb26df6dd547adf4f3082d87e269658358b0577e7c4674e2b55",
+          "local_sha256": "883d8096918634c550a12d241134cd16b39bad8d70aa83598a16fe16e6ae5567"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/weil/prime_kloosterman.lean",
+          "upstream_relative_path": "rml/weil/prime_kloosterman.lean",
+          "upstream_sha256": "5a016c9d60d86cb125c43e855395cdbd006bb9cff73a5ccbf76e945b58a3638f",
+          "local_sha256": "4eaeea919a8430ed490eb47ff127a50851a893104145bafb2e040c15bd4ab626"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml/weil.lean",
+          "upstream_relative_path": "rml/weil.lean",
+          "upstream_sha256": "1921914881cdb894faefbf3392ae5dddf9f3fc74799c92dbbb65a0aabd47619d",
+          "local_sha256": "f76c3a37cc4461dd17d3ebbb6646091f9c42b486aee126dcc74747a2e82e8bd4"
+        },
+        {
+          "path": "vendor/weil_bounds_toolkit/source/rml.lean",
+          "upstream_relative_path": "rml.lean",
+          "upstream_sha256": "00b13978d89136eed969b2336c52e5166fe97d2e767b5bfb77e0a42910059bb0",
+          "local_sha256": "e30ed246ae22d85300076fe3fe1bbffa1fbdda3fe0768cdcabb05d34be61fd61"
+        }
+      ],
+      "license": "Apache-2.0",
+      "adaptations": "Lean 4.35 module-system port of 40 files: module headers, public imports and exposed public sections; class_value map_nsmul rewrite proof; prime_weil Circle.norm_coe proof; auxiliary explicitly imports Mathlib.LinearAlgebra.FiniteDimensional.Lemmas. Theorem statements are preserved.",
+      "upstream_archive_note": "The original short revision fdaf04f318ed was not resolvable from its original repository; the available primary archived source is pinned by the full PalomarArchive commit above."
+    },
+    {
+      "dependency": "siegel",
+      "repository": "sthubbar/goldbach-lean",
+      "commit": "6d7ae7b40fb5550e836456fd2ff4d8587157aee7",
+      "files": [
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Estermann.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/Estermann.lean",
+          "upstream_sha256": "7fff8efa0261a022a619ebd4e0cde30c65636befa6c6ed1f5f3b6a63499d0ee6",
+          "local_sha256": "7fff8efa0261a022a619ebd4e0cde30c65636befa6c6ed1f5f3b6a63499d0ee6"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Exceptional.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/Exceptional.lean",
+          "upstream_sha256": "fc1edc8984a4766c7c91e280040d082937ff91752eb9e853e5c90761096f1b49",
+          "local_sha256": "fc1edc8984a4766c7c91e280040d082937ff91752eb9e853e5c90761096f1b49"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Growth.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/Growth.lean",
+          "upstream_sha256": "25fd5ccb8ab9e65f9b24eb0f9fb356a43aaf9eaabb6eb891bb01e0ed95ec4613",
+          "local_sha256": "25fd5ccb8ab9e65f9b24eb0f9fb356a43aaf9eaabb6eb891bb01e0ed95ec4613"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/LogDeriv.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/LogDeriv.lean",
+          "upstream_sha256": "e18869bb004edd2180f5f9b0d21482b3e1883f71154536d47e9e690dbe845cef",
+          "local_sha256": "e18869bb004edd2180f5f9b0d21482b3e1883f71154536d47e9e690dbe845cef"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/NearOne.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/NearOne.lean",
+          "upstream_sha256": "0aa9956237b5c683356e7ba170a5a2fc55ef4c46916d0637a93d41f714989ad7",
+          "local_sha256": "0aa9956237b5c683356e7ba170a5a2fc55ef4c46916d0637a93d41f714989ad7"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Page.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/Page.lean",
+          "upstream_sha256": "599797914120f587b69106d4ca141f10a410e16acdc7172958ce1d59730e1cf3",
+          "local_sha256": "599797914120f587b69106d4ca141f10a410e16acdc7172958ce1d59730e1cf3"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/RealZero.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/RealZero.lean",
+          "upstream_sha256": "20e6b7042e6edf8ccb9296c7e563e8c78bcd1ab0cf8f51aa2defb8186d0ce3fe",
+          "local_sha256": "20e6b7042e6edf8ccb9296c7e563e8c78bcd1ab0cf8f51aa2defb8186d0ce3fe"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/Siegel.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/Siegel.lean",
+          "upstream_sha256": "459e8783505c84b40c2e3dfe81bee93edcf21c40ce42f2f0c4068216d8684b43",
+          "local_sha256": "459e8783505c84b40c2e3dfe81bee93edcf21c40ce42f2f0c4068216d8684b43"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelBounds.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/SiegelBounds.lean",
+          "upstream_sha256": "738654afd92a5879a18f8293441bb928597806b26e6f23b6379fd70aa480bc24",
+          "local_sha256": "738654afd92a5879a18f8293441bb928597806b26e6f23b6379fd70aa480bc24"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelG.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/SiegelG.lean",
+          "upstream_sha256": "e83bf55f628ad33d1a830aa40bb2d4a25191e7a37098c99866949de6ad77d749",
+          "local_sha256": "e83bf55f628ad33d1a830aa40bb2d4a25191e7a37098c99866949de6ad77d749"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelLift.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/SiegelLift.lean",
+          "upstream_sha256": "0ac976c08e60f4edb148c87ac826a7e5ac845315c499569926004edd0bf2d26a",
+          "local_sha256": "0ac976c08e60f4edb148c87ac826a7e5ac845315c499569926004edd0bf2d26a"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelPair.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/SiegelPair.lean",
+          "upstream_sha256": "e72edfd9a57efe276f84b4a22de705e191b8426a0e86126254defdbc06d0a71e",
+          "local_sha256": "e72edfd9a57efe276f84b4a22de705e191b8426a0e86126254defdbc06d0a71e"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelSign.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/SiegelSign.lean",
+          "upstream_sha256": "267c0ca29db16d3ac87e1ae4901c570fc5539ab8765974684ef39e84110763e6",
+          "local_sha256": "267c0ca29db16d3ac87e1ae4901c570fc5539ab8765974684ef39e84110763e6"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelSigns.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/SiegelSigns.lean",
+          "upstream_sha256": "ae4888d3fd674db74116a81eb54ef29904743d45673de57d65af4f032e56c122",
+          "local_sha256": "ae4888d3fd674db74116a81eb54ef29904743d45673de57d65af4f032e56c122"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/SiegelTaylor.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/SiegelTaylor.lean",
+          "upstream_sha256": "21ad2a9b460cf0673a1ea90a5fe3793f4b95017a7feccfd164e2bc69c083e445",
+          "local_sha256": "21ad2a9b460cf0673a1ea90a5fe3793f4b95017a7feccfd164e2bc69c083e445"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ThreeFourOne.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/ThreeFourOne.lean",
+          "upstream_sha256": "7a3538927a2d53b7d6662a1881551392fdfe91afef8a244fa0df422c7f9c17cb",
+          "local_sha256": "7a3538927a2d53b7d6662a1881551392fdfe91afef8a244fa0df422c7f9c17cb"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ZeroFree.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/ZeroFree.lean",
+          "upstream_sha256": "31b2a5a1602506f5cd0940ed9c4dffe37abec8561d85a26bfa0d4c19c3d6b621",
+          "local_sha256": "31b2a5a1602506f5cd0940ed9c4dffe37abec8561d85a26bfa0d4c19c3d6b621"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ZeroFreeAll.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/ZeroFreeAll.lean",
+          "upstream_sha256": "56efbc2d916796a22d7bf8389960f8a3fd88164e073dc9678a370c227ab75e11",
+          "local_sha256": "56efbc2d916796a22d7bf8389960f8a3fd88164e073dc9678a370c227ab75e11"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/DirichletZF/ZeroFreeReal.lean",
+          "upstream_relative_path": "PNTPort/DirichletZF/ZeroFreeReal.lean",
+          "upstream_sha256": "4160ea3006b3a6b2f79f134cea9259e91cb8d7e41182f32f509f497ad3898503",
+          "local_sha256": "4160ea3006b3a6b2f79f134cea9259e91cb8d7e41182f32f509f497ad3898503"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Auxiliary.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Auxiliary.lean",
+          "upstream_sha256": "e370a086e90756ce8c8f6dfcc410d0d8fc4781fde7ca0566d2b25dbff278bf8d",
+          "local_sha256": "e370a086e90756ce8c8f6dfcc410d0d8fc4781fde7ca0566d2b25dbff278bf8d"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/EulerMaclaurin.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/EulerMaclaurin.lean",
+          "upstream_sha256": "1d3f57b60017276c81487b65944f293c5d3e78b1f801748910bedaa2903b1196",
+          "local_sha256": "1d3f57b60017276c81487b65944f293c5d3e78b1f801748910bedaa2903b1196"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Fourier.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Fourier.lean",
+          "upstream_sha256": "db702ffd076e8923294d4ba7cd09f8a753143e073f3c56d7bfaa5d5705cac8c2",
+          "local_sha256": "db702ffd076e8923294d4ba7cd09f8a753143e073f3c56d7bfaa5d5705cac8c2"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Mathlib/Algebra/Notation/Support.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Mathlib/Algebra/Notation/Support.lean",
+          "upstream_sha256": "5a0a47c911cfd52a6064b08672e906504342a7a5c8cf7c458787734fde0e2b32",
+          "local_sha256": "5a0a47c911cfd52a6064b08672e906504342a7a5c8cf7c458787734fde0e2b32"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+          "upstream_sha256": "676690d0dc52a8b705cb5751345a2f18f35ca7590cecff6596888c9d72060865",
+          "local_sha256": "676690d0dc52a8b705cb5751345a2f18f35ca7590cecff6596888c9d72060865"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/MediumPNT.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/MediumPNT.lean",
+          "upstream_sha256": "14f667e9885434539747a4856bdba29e8d793301341bc023cb85fa4cf807c308",
+          "local_sha256": "14f667e9885434539747a4856bdba29e8d793301341bc023cb85fa4cf807c308"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/MellinCalculus.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/MellinCalculus.lean",
+          "upstream_sha256": "46d09b3c4af295f6cd0e78357e6ba19f07ac259909587f8dba48bd12ee2a221f",
+          "local_sha256": "46d09b3c4af295f6cd0e78357e6ba19f07ac259909587f8dba48bd12ee2a221f"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Rectangle.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Rectangle.lean",
+          "upstream_sha256": "2f7dbd50aea0855b252a053928680c29da75796651c5cf6e871a13268cedeec3",
+          "local_sha256": "2f7dbd50aea0855b252a053928680c29da75796651c5cf6e871a13268cedeec3"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/ResidueCalcOnRectangles.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/ResidueCalcOnRectangles.lean",
+          "upstream_sha256": "2d32c28791f5198232712fb7ed6714c56016701a395a430357eb96c709ae419a",
+          "local_sha256": "2d32c28791f5198232712fb7ed6714c56016701a395a430357eb96c709ae419a"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/SmoothExistence.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/SmoothExistence.lean",
+          "upstream_sha256": "4923919db60a4e3414092e40f99d47d0340bf165766882dd58518d4e6d9563bb",
+          "local_sha256": "4923919db60a4e3414092e40f99d47d0340bf165766882dd58518d4e6d9563bb"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Sobolev.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Sobolev.lean",
+          "upstream_sha256": "5d57ffd1fbd1c6f9cd6d73bdbe49db8f15266b7a8139fc08ecec78a1045018cb",
+          "local_sha256": "5d57ffd1fbd1c6f9cd6d73bdbe49db8f15266b7a8139fc08ecec78a1045018cb"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/StrongPNT.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/StrongPNT.lean",
+          "upstream_sha256": "1d9101555fcd84566151de400da8def843ad1e220da8c48459228fb12ecd8f17",
+          "local_sha256": "1d9101555fcd84566151de400da8def843ad1e220da8c48459228fb12ecd8f17"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Tactic/AdditiveCombination.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Tactic/AdditiveCombination.lean",
+          "upstream_sha256": "1d9e59c34c36dfc3eff21b7137637d7b7291791d92764ec5df4d7765a67aafe0",
+          "local_sha256": "1d9e59c34c36dfc3eff21b7137637d7b7291791d92764ec5df4d7765a67aafe0"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/Tactic/LinearCombinationPrime.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/Tactic/LinearCombinationPrime.lean",
+          "upstream_sha256": "bb619eaacabed815fcc9da0adefa692893ebfc6ccbf1ae5456417ef1dcc4b561",
+          "local_sha256": "bb619eaacabed815fcc9da0adefa692893ebfc6ccbf1ae5456417ef1dcc4b561"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/ZetaBounds.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/ZetaBounds.lean",
+          "upstream_sha256": "04d21c738c10e5c992250cc8608c9d40f738a4d27bc0fb6efb1111854231da93",
+          "local_sha256": "04d21c738c10e5c992250cc8608c9d40f738a4d27bc0fb6efb1111854231da93"
+        },
+        {
+          "path": "vendor/goldbach_siegel/LeanLab/PNTPort/StrongPNT/ZetaConj.lean",
+          "upstream_relative_path": "PNTPort/StrongPNT/ZetaConj.lean",
+          "upstream_sha256": "43cd8e71164fdd7f4f088825f7a8be84018de2ccec9f5e63cda4a015d6020fb0",
+          "local_sha256": "43cd8e71164fdd7f4f088825f7a8be84018de2ccec9f5e63cda4a015d6020fb0"
+        }
+      ],
+      "license": "Apache-2.0",
+      "adaptations": "Exact source copy; no adaptations."
+    },
+    {
+      "dependency": "h2_sigma_half",
+      "repository": "jtraverso/four-squares-in-caps",
+      "commit": "a1fcaafb270c099ea773706912192adbfec19a83",
+      "source_path": "FourSquaresCaps/DivisorBound.lean",
+      "source_blob": "be836331f9ef641633c4c2cb3e076d610508a83d",
+      "license": "Apache-2.0",
+      "adaptations": "Complete source restored with namespace FourSquaresCaps changed to ThreeSquares; imported by DecompSum to restore the missing sigmaHalf and sigmaHalf_le used by H2.",
+      "files": [
+        {
+          "path": "ThreeSquaresLib/SigmaHalf.lean",
+          "local_sha256": "4a994a9e8872d879e6a093884320dc2d2b66b0ed53abd828330b8c81824dc0c1",
+          "upstream_sha256": "cc5cf8f654d5b0fb4a0dc63cf70038ea4b082d476795bd2eb172ed79eec5f521"
+        }
+      ],
+      "upstream_copy": "docs/h1-recovery-20261108/H2_SIGMA_HALF_UPSTREAM.lean.txt"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ Authors: Juan Pablo Traverso Gianini
 module
 
 public import DSPLib.Main
+public import ThreeSquaresLib.DukeSquarefreeProof
 
 /-!
 # Proofs of the statements in `DSPChallenge.lean`
@@ -80,5 +81,14 @@ theorem spn_upper (A : Matrix (Fin 3) (Fin 3) ℤ) (hA : A.IsSymm)
       |(repCount A h n : ℝ) - R n| ≤ C * (n : ℝ) ^ (1 / 2 - 1 / 28 + ε)) :
     ∀ ε : ℝ, 0 < ε → ∃ C : ℝ, ∀ n ∈ S, 1 ≤ n → R n ≤ C * (n : ℝ) ^ (1 / 2 + ε) :=
   DSP.spn_upper A hA hpos h S R hThm3i
+
+/-- **H1 (unconditional).** Every fixed cap contains an integral representation of every
+sufficiently large squarefree integer congruent to 3 modulo 8. The cutoff is ineffective. -/
+theorem squarefree_three_squares_in_caps (u : Fin 3 → ℝ)
+    (hu : ∑ i, u i ^ 2 = 1) (ε : ℝ) (hε : 0 < ε) :
+    ∃ T₀ : ℕ, ∀ t : ℕ, T₀ ≤ t → Squarefree t → t % 8 = 3 →
+      ∃ x : Fin 3 → ℤ, ∑ i, x i ^ 2 = (t : ℤ) ∧
+        ∀ i, |(x i : ℝ) - Real.sqrt t * u i| ≤ ε * Real.sqrt t :=
+  ThreeSquares.dukeSquarefree u hu ε hε
 
 end DukeSchulzePillot
