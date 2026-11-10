@@ -12,6 +12,27 @@ name = "mathlib"
 scope = "leanprover-community"
 rev = "v4.35.0-rc3"
 
+[[require]]
+name = "weil_bounds_toolkit"
+git = "https://github.com/charliedorsey/weil-bounds-toolkit"
+rev = "0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68"
+
+[[require]]
+name = "GoldbachLeanHeathBrown1985"
+git = "https://github.com/sthubbar/goldbach-lean"
+rev = "6d7ae7b40fb5550e836456fd2ff4d8587157aee7"
+subDir = "entries/heathbrown1985"
+
+[[require]]
+name = "three_squares"
+git = "https://github.com/jtraverso/three-squares-gauss-legendre"
+rev = "783ec66b0db2ff2acf75cc2cd22a9e69737411b5"
+
+[[require]]
+name = "four_squares_caps"
+git = "https://github.com/jtraverso/four-squares-in-caps"
+rev = "a1fcaafb270c099ea773706912192adbfec19a83"
+
 [[lean_lib]]
 name = "DSPLib"
 globs = ["DSPLib.+"]
@@ -25,15 +46,5 @@ name = "DSPSolution"
 roots = ["DSPSolution"]
 
 [[lean_lib]]
-name = "ThreeSquaresLib"
-globs = ["ThreeSquaresLib.+"]
-
-[[lean_lib]]
-name = "rml"
-srcDir = "vendor/weil_bounds_toolkit/source"
-globs = ["rml.*"]
-
-[[lean_lib]]
-name = "LeanLab"
-srcDir = "vendor/goldbach_siegel"
-globs = ["LeanLab.+"]
+name = "DukeH1"
+globs = ["DukeH1.+"]

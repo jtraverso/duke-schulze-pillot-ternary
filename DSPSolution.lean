@@ -6,7 +6,7 @@ Authors: Juan Pablo Traverso Gianini
 module
 
 public import DSPLib.Main
-public import ThreeSquaresLib.DukeSquarefreeProof
+public import DukeH1.DukeSquarefreeProof
 
 /-!
 # Proofs of the statements in `DSPChallenge.lean`

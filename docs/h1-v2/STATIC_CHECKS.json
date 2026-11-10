@@ -1,7 +1,0 @@
-{
-  "status": "PASS",
-  "unchanged_H1_source_hashes": 192,
-  "Lean_files_module_and_line_scan": 202,
-  "challenge_imports": "Mathlib only",
-  "original_five_statements": "unchanged"
-}

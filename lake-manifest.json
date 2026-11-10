@@ -15,6 +15,54 @@
    "configFile": "lakefile.lean"
   },
   {
+   "url": "https://github.com/charliedorsey/weil-bounds-toolkit",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68",
+   "name": "weil_bounds_toolkit",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68",
+   "inherited": false,
+   "configFile": "lakefile.toml"
+  },
+  {
+   "url": "https://github.com/sthubbar/goldbach-lean",
+   "type": "git",
+   "subDir": "entries/heathbrown1985",
+   "scope": "",
+   "rev": "6d7ae7b40fb5550e836456fd2ff4d8587157aee7",
+   "name": "GoldbachLeanHeathBrown1985",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "6d7ae7b40fb5550e836456fd2ff4d8587157aee7",
+   "inherited": false,
+   "configFile": "lakefile.toml"
+  },
+  {
+   "url": "https://github.com/jtraverso/three-squares-gauss-legendre",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "783ec66b0db2ff2acf75cc2cd22a9e69737411b5",
+   "name": "three_squares",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "783ec66b0db2ff2acf75cc2cd22a9e69737411b5",
+   "inherited": false,
+   "configFile": "lakefile.toml"
+  },
+  {
+   "url": "https://github.com/jtraverso/four-squares-in-caps",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "a1fcaafb270c099ea773706912192adbfec19a83",
+   "name": "four_squares_caps",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "a1fcaafb270c099ea773706912192adbfec19a83",
+   "inherited": false,
+   "configFile": "lakefile.toml"
+  },
+  {
    "url": "https://github.com/leanprover-community/plausible",
    "type": "git",
    "subDir": null,

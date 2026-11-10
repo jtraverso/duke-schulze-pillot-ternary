@@ -18,10 +18,17 @@ The threshold is ineffective because the argument uses Siegel's theorem.
 
 The five original declarations below are retained. This does **not** prove the
 general Duke–Schulze-Pillot theorem unconditionally, remove the hypotheses from
-`thm3_ii`, or assert the sharp `1/175` rate. The selected package contains the
-exact 192-module H1 import cone, not the later H2/nonsquarefree endpoint.
-See [the submission scope](docs/h1-v2/SCOPE.md) and
-[the source selection](docs/h1-v2/SOURCE_SELECTION.json).
+`thm3_ii`, or assert the sharp `1/175` rate. The H1 proof lives in `DukeH1/`; see
+[the submission scope](docs/h1-v2/SCOPE.md).
+
+Registered code is reused only as lake dependencies (nothing is copied):
+
+| Dependency | Palomar entry | Used for |
+|---|---|---|
+| [sthubbar/goldbach-lean](https://github.com/sthubbar/goldbach-lean) @ 6d7ae7b, `entries/heathbrown1985` | PALOMAR-2026-10-21-000005 | Siegel's theorem, integral representation of `L(1, χ)` |
+| [charliedorsey/weil-bounds-toolkit](https://github.com/charliedorsey/weil-bounds-toolkit) @ 0f3e4c3 | PALOMAR-2026-11-03-000018 | Weil bounds for Kloosterman sums |
+| [jtraverso/three-squares-gauss-legendre](https://github.com/jtraverso/three-squares-gauss-legendre) @ 783ec66 | PALOMAR-2026-11-07-000011 | Gauss–Legendre, unimodular lattices |
+| [jtraverso/four-squares-in-caps](https://github.com/jtraverso/four-squares-in-caps) @ a1fcaaf | PALOMAR-2026-11-08-000002 | Gauss and Kloosterman sums, theta functions |
 
 ## Setting
 

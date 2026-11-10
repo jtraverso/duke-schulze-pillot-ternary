@@ -9,12 +9,11 @@ contains a representation of every sufficiently large squarefree integer
 congruent to 3 modulo 8 by three integer squares. It has no analytic assumption.
 The cutoff depends on the direction and cap width and is ineffective.
 
-The exact 192-module import closure of `ThreeSquares.dukeSquarefree` was copied
-from the compiled and audited source at commit
-`c2049f5db7e4f34e7fad6445e8db16fc9007c1cd`. `SOURCE_SELECTION.json` records
-each original source hash. The proof sources are byte-identical to that audit.
-The private working repository is not a build dependency: all needed proof
-sources, licenses and pinned Mathlib dependencies are present here.
+The H1 proof sources are in `DukeH1/`. Code from registered Palomar entries is not
+copied: Siegel's theorem (PALOMAR-2026-10-21-000005), the Weil Bounds Toolkit
+(PALOMAR-2026-11-03-000018), the Gauss–Legendre package (PALOMAR-2026-11-07-000011)
+and the four-squares-in-caps package (PALOMAR-2026-11-08-000002) are lake
+dependencies pinned at their registered commits.
 
 The cap proof first fixes its polynomial degree. It then takes a positive minimum
 of finitely many harmonic-degree savings; no saving uniform in all degrees is
@@ -29,11 +28,9 @@ sphere-specific cap consequence and does not prove the full general
 Duke–Schulze-Pillot theorem, its sharp rate, or a spinor-genus lower bound.
 The nonsquarefree cap theorem and H2 are not selected for this submission.
 
-`UPSTREAM_AXIOMS.log` and `ASSEMBLY_BACKGROUND_ES.md` describe the larger
-upstream development and are explicitly historical background. Only the H1
-source cone listed in `SOURCE_SELECTION.json` is copied here; H2-specific files
-mentioned by that background are not needed or submitted. The general
-Gauss–Legendre registered repository and its `main` branch are unchanged.
+`ASSEMBLY_BACKGROUND_ES.md` describes the larger upstream development and is
+historical background. The registered Gauss–Legendre and four-squares-in-caps
+repositories are unchanged and used as dependencies.
 
 Local interface/type and axiom checks are separate from the official Palomar
 full preflight. A source hash or local build is not presented as a Palomar

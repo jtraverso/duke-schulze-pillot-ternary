@@ -1,4 +1,0 @@
-# Keep imported proof sources and audit hashes byte-identical.
-ThreeSquaresLib/** -text
-vendor/** -text
-docs/h1-v2/** -text

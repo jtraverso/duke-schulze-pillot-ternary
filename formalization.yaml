@@ -65,20 +65,50 @@ sources:
     the finite degree; the sharp exponent is not selected.
   license: unknown
   author_endorsement: not-contacted
-- title: 'LeanLab: verified Siegel theorem and Dirichlet L-function integral representation'
-  type: formalization
-  url: https://github.com/sthubbar/goldbach-lean/tree/6d7ae7b40fb5550e836456fd2ff4d8587157aee7/entries/heathbrown1985
-  relationship: background
-  note: Exact vendored 35-module source closure, with original Apache-2.0 license; supplies SiegelHyp
-    and LOneIntegralHyp as proofs, not assumptions.
+- title: Siegel's theorem and the integral representation of Dirichlet L-functions (Heath-Brown 1985 entry)
+  authors:
+  - sthubbar
+  id: PALOMAR-2026-10-21-000005
+  type: other
+  location: https://github.com/sthubbar/goldbach-lean @ 6d7ae7b, entries/heathbrown1985
+  relationship: uses
+  note: Required as a lake dependency (modules LeanLab.PNTPort.DirichletZF.Siegel and its integral
+    representation); supplies SiegelHyp and LOneIntegralHyp as proofs. No code is copied.
   license: Apache-2.0
-- title: Weil bounds toolkit, archived source
-  type: formalization
-  url: https://github.com/PalomarArchive/charliedorsey--weil-bounds-toolkit--fdaf04f318ed/tree/7adcd23667b063ae54cc0e8707c89ce259e8fd31
-  relationship: background
-  note: Pinned archived proof sources, ported to Lean 4.35 module visibility with recorded proof-only
-    compatibility changes; theorem statements preserved. Original license retained.
+  author_endorsement: n/a
+- title: Weil Bounds Toolkit
+  authors:
+  - Charlie Dorsey
+  id: PALOMAR-2026-11-03-000018
+  type: other
+  location: https://github.com/charliedorsey/weil-bounds-toolkit @ 0f3e4c3
+  relationship: uses
+  note: Required as a lake dependency (module rml.weil.crt_and_completion) for Weil bounds of Kloosterman
+    sums; no code is copied.
   license: Apache-2.0
+  author_endorsement: n/a
+- title: The three squares theorem (Gauss–Legendre)
+  authors:
+  - Juan Pablo Traverso Gianini
+  id: PALOMAR-2026-11-07-000011
+  type: other
+  location: https://github.com/jtraverso/three-squares-gauss-legendre @ 783ec66
+  relationship: uses
+  note: Required as a lake dependency (modules ThreeSquaresLib.Main and ThreeSquaresLib.Unimodular); no
+    code is copied.
+  license: Apache-2.0
+  author_endorsement: n/a
+- title: Four squares in caps and Jacobi's four-square theorem for odd N
+  authors:
+  - Juan Pablo Traverso Gianini
+  id: PALOMAR-2026-11-08-000002
+  type: other
+  location: https://github.com/jtraverso/four-squares-in-caps @ a1fcaaf
+  relationship: uses
+  note: Required as a lake dependency (Gauss sums, Kloosterman sums, theta functions and elementary sums
+    in FourSquaresCaps.ArithSums, GaussSum, Kloosterman, Lattice, Theta, Twisted); no code is copied.
+  license: Apache-2.0
+  author_endorsement: n/a
 status:
   scope: The five earlier endpoints plus unconditional H1 for squarefree three-square radii. H1 supplies
     no numerical threshold and does not remove hThm1 or hThm3i from the general conditional endpoints.
@@ -93,7 +123,7 @@ automation:
     models:
     - Claude Opus 5.5
     framework: Claude Code (Anthropic)
-    tool_setup: 'Wrote the Lean development (directory DSPLib/), the Challenge/Solution pair and the packaging
+    tool_setup: 'Wrote the Lean development (directories DSPLib/ and DukeH1/), the Challenge/Solution pair and the packaging
       under the author''s direction, checked with lake build, #print axioms and a comparison of the elaborated
       Challenge and Solution statements and definitions (pp.all) (Lean v4.35.0-rc3, Mathlib c55e6e786f49471c72fbddbec5415808896aec1e).'
     cost:
@@ -105,9 +135,10 @@ automation:
     models:
     - Codex (OpenAI)
     framework: Codex
-    tool_setup: Recovered and assembled H1, restored the pinned proof dependencies, checked the 192-module
-      H1 source cone against the audited source hashes, and prepared a literal Mathlib-only Challenge
-      statement and its proof wrapper. The original mathematical hypotheses are preserved.
+    tool_setup: Recovered and assembled H1 (degree-dependent Weyl criterion, representation lower bound),
+      and prepared a literal Mathlib-only Challenge statement and its proof wrapper. The original
+      mathematical hypotheses are preserved. Claude Code then replaced the vendored copies of registered
+      code by lake dependencies on the registered entries.
     prompting_notes: Author-directed instructions in Spanish; public Gauss–Legendre repository kept unchanged.
   spend_usd: subscription-based
   notes: AI-written formalization directed by the author. The proof dependency closure is checked with
