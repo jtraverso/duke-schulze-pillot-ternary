@@ -10,7 +10,7 @@ congruent to 3 modulo 8 by three integer squares. It has no analytic assumption.
 The cutoff depends on the direction and cap width and is ineffective.
 
 The H1 proof sources are in `DukeH1/`. Code from registered Palomar entries is not
-copied: Siegel's theorem (jtraverso/siegel-theorem, SIEGEL_ENTRY_ID), the Weil Bounds Toolkit
+copied: Siegel's theorem (jtraverso/siegel-theorem, PALOMAR-2026-11-12-000005), the Weil Bounds Toolkit
 (PALOMAR-2026-11-03-000018), the Gauss–Legendre package (PALOMAR-2026-11-07-000011)
 and the four-squares-in-caps package (PALOMAR-2026-11-08-000002) are lake
 dependencies pinned at their registered commits.

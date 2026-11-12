@@ -68,7 +68,7 @@ sources:
 - title: Siegel's theorem for real Dirichlet characters (Goldfeld's proof)
   authors:
   - Juan Pablo Traverso Gianini
-  id: SIEGEL_ENTRY_ID
+  id: PALOMAR-2026-11-12-000005
   type: other
   location: https://github.com/jtraverso/siegel-theorem @ dbe9353
   relationship: uses
