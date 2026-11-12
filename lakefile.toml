@@ -18,10 +18,9 @@ git = "https://github.com/charliedorsey/weil-bounds-toolkit"
 rev = "0f3e4c3010bb0e7c4e514ddb5bd3a0a0e082bf68"
 
 [[require]]
-name = "GoldbachLeanHeathBrown1985"
-git = "https://github.com/sthubbar/goldbach-lean"
-rev = "6d7ae7b40fb5550e836456fd2ff4d8587157aee7"
-subDir = "entries/heathbrown1985"
+name = "siegel"
+git = "https://github.com/jtraverso/siegel-theorem"
+rev = "dbe9353374a11317bdd2d436e264536258c5762f"
 
 [[require]]
 name = "three_squares"

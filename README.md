@@ -25,7 +25,7 @@ Registered code is reused only as lake dependencies (nothing is copied):
 
 | Dependency | Palomar entry | Used for |
 |---|---|---|
-| [sthubbar/goldbach-lean](https://github.com/sthubbar/goldbach-lean) @ 6d7ae7b, `entries/heathbrown1985` | PALOMAR-2026-10-21-000005 | Siegel's theorem, integral representation of `L(1, χ)` |
+| [jtraverso/siegel-theorem](https://github.com/jtraverso/siegel-theorem) @ dbe9353 | SIEGEL_ENTRY_ID | Siegel's theorem, integral representation of `L(s, χ)` |
 | [charliedorsey/weil-bounds-toolkit](https://github.com/charliedorsey/weil-bounds-toolkit) @ 0f3e4c3 | PALOMAR-2026-11-03-000018 | Weil bounds for Kloosterman sums |
 | [jtraverso/three-squares-gauss-legendre](https://github.com/jtraverso/three-squares-gauss-legendre) @ 783ec66 | PALOMAR-2026-11-07-000011 | Gauss–Legendre, unimodular lattices |
 | [jtraverso/four-squares-in-caps](https://github.com/jtraverso/four-squares-in-caps) @ a1fcaaf | PALOMAR-2026-11-08-000002 | Gauss and Kloosterman sums, theta functions |

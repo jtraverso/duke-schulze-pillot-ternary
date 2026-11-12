@@ -27,14 +27,14 @@
    "configFile": "lakefile.toml"
   },
   {
-   "url": "https://github.com/sthubbar/goldbach-lean",
+   "url": "https://github.com/jtraverso/siegel-theorem",
    "type": "git",
-   "subDir": "entries/heathbrown1985",
+   "subDir": null,
    "scope": "",
-   "rev": "6d7ae7b40fb5550e836456fd2ff4d8587157aee7",
-   "name": "GoldbachLeanHeathBrown1985",
+   "rev": "dbe9353374a11317bdd2d436e264536258c5762f",
+   "name": "siegel",
    "manifestFile": "lake-manifest.json",
-   "inputRev": "6d7ae7b40fb5550e836456fd2ff4d8587157aee7",
+   "inputRev": "dbe9353374a11317bdd2d436e264536258c5762f",
    "inherited": false,
    "configFile": "lakefile.toml"
   },

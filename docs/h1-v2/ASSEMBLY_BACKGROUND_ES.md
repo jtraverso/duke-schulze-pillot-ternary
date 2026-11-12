@@ -60,7 +60,7 @@ Para `n≡3 (mod 8)`, sea `χ_n` el carácter de Jacobi módulo `n`. Es real, no
 
 No se usa convergencia absoluta en `s=1`. El módulo `B3_SchiLimit.lean` adapta el argumento de sumación parcial de Mathlib para obtener este límite a partir de las sumas parciales acotadas. El valor del límite se identifica mediante la representación integral de la continuación analítica.
 
-La representación integral y el teorema de Siegel se importan de las pruebas registradas de `goldbach-lean`, commit `6d7ae7b40fb5550e836456fd2ff4d8587157aee7`. `B3_VerifiedInputs.lean` suministra ambos contratos mediante esas pruebas; no los declara como axiomas ni los deja como parámetros del teorema final.
+La representación integral y el teorema de Siegel se importan del paquete `jtraverso/siegel-theorem`, commit `dbe9353374a11317bdd2d436e264536258c5762f` (prueba de Goldfeld, solo Mathlib). `B3_VerifiedInputs.lean` suministra ambos contratos mediante esas pruebas; no los declara como axiomas ni los deja como parámetros del teorema final.
 
 ## 4. De las clases de residuos a una cota inferior de r₃
 

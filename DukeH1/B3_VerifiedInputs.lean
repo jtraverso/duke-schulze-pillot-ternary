@@ -6,21 +6,19 @@ Authors: Juan Pablo Traverso Gianini
 module
 
 public import DukeH1.B3_Hyp
-public import LeanLab.PNTPort.DirichletZF.Siegel
+public import SiegelThmSolution
 
 /-! # Discharging the registered analytic contracts of B3
 
-The imported proofs are the exact source closure of goldbach-lean commit
-6d7ae7b40fb5550e836456fd2ff4d8587157aee7, not new axioms.
+The proofs come from the lake dependency `jtraverso/siegel-theorem` @ `dbe9353` (Siegel's theorem by
+Goldfeld's argument, Mathlib only), not new axioms.
 -/
 
 @[expose] public section
 namespace ThreeSquares.B3
 
-theorem siegel_verified : SiegelHyp := LeanLab.PNTPort.DirichletZF.siegel
+theorem siegel_verified : SiegelHyp := SiegelThm.siegel
 
-theorem lOneIntegral_verified : LOneIntegralHyp := by
-  intro N _ χ hχ s hs
-  exact LeanLab.PNTPort.DirichletZF.LFunction_eq_integral hχ hs
+theorem lOneIntegral_verified : LOneIntegralHyp := SiegelThm.LFunction_eq_integral
 
 end ThreeSquares.B3

@@ -65,15 +65,16 @@ sources:
     the finite degree; the sharp exponent is not selected.
   license: unknown
   author_endorsement: not-contacted
-- title: Siegel's theorem and the integral representation of Dirichlet L-functions (Heath-Brown 1985 entry)
+- title: Siegel's theorem for real Dirichlet characters (Goldfeld's proof)
   authors:
-  - sthubbar
-  id: PALOMAR-2026-10-21-000005
+  - Juan Pablo Traverso Gianini
+  id: SIEGEL_ENTRY_ID
   type: other
-  location: https://github.com/sthubbar/goldbach-lean @ 6d7ae7b, entries/heathbrown1985
+  location: https://github.com/jtraverso/siegel-theorem @ dbe9353
   relationship: uses
-  note: Required as a lake dependency (modules LeanLab.PNTPort.DirichletZF.Siegel and its integral
-    representation); supplies SiegelHyp and LOneIntegralHyp as proofs. No code is copied.
+  note: Required as a lake dependency (module SiegelThmSolution, namespace SiegelThm); supplies
+    SiegelHyp (SiegelThm.siegel) and LOneIntegralHyp (SiegelThm.LFunction_eq_integral) as proofs,
+    and the bound SiegelThm.norm_sum_Icc_le. No code is copied.
   license: Apache-2.0
   author_endorsement: n/a
 - title: Weil Bounds Toolkit

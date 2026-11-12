@@ -9,7 +9,7 @@ NumberTheory/LSeries/SumCoeff.lean (Apache-2.0).
 module
 
 public import Mathlib.NumberTheory.LSeries.SumCoeff
-public import LeanLab.PNTPort.DirichletZF.Growth
+public import SiegelThmSolution
 
 /-! # Conditional convergence of character sums at s = 1
 
@@ -74,9 +74,9 @@ theorem character_sum_at_one {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N
     apply Filter.Eventually.of_forall
     intro M
     simp only [Real.rpow_zero,norm_one,mul_one,hsum]
-    exact LeanLab.PNTPort.DirichletZF.norm_sum_Icc_le hχ M
+    exact SiegelThm.norm_sum_Icc_le hχ M
   have h := partial_sum_cpow_tendsto hf (r:=0) le_rfl (s:=1) (by norm_num) hO
-  rw [LeanLab.PNTPort.DirichletZF.LFunction_eq_integral hχ (by norm_num : 0<(1:ℂ).re)]
+  rw [SiegelThm.LFunction_eq_integral _ χ hχ 1 (by norm_num : 0<(1:ℂ).re)]
   convert h using 1
   · funext M
     apply sum_congr rfl
@@ -89,6 +89,5 @@ theorem character_sum_at_one {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N
     intro t _
     dsimp only
     rw [hsum]
-    rfl
 
 end ThreeSquares.B3
